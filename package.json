@@ -1,0 +1,28 @@
+{
+  "name": "vuetify.slwc.ca",
+  "version": "1.0.0",
+  "description": "Silver Lake Wesleyan Camp",
+  "author": "David Mosher <davidmosher@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.4.2",
+    "vuetify": "^1.1.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.3.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
