@@ -62,16 +62,14 @@
   export default {
     data () {
       return {
+        title: 'Silver Lake Wesleyan Camp',
         drawer: false,
         items: [
           { icon: 'beach_access', title: 'Camps', to: '/camps' },
           { icon: 'event', title: 'Events', to: '/events' },
           { icon: 'book', title: 'Rentals', to: '/rentals' },
           { icon: 'attach_money', title: 'Giving', to: '/giving' }
-        ],
-        miniVariant: false,
-        right: true,
-        title: 'Silver Lake Wesleyan Camp'
+        ]
       }
     }
   }
