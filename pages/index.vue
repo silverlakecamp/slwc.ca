@@ -1,14 +1,12 @@
 <template>
   <div>
-    <v-jumbotron>
-      <v-container fill-height>
-        <v-layout>
-          <v-flex text-xs-center>
-            <img style="max-height: 360px" src="~/assets/img/slwc_logo_color.png" alt="Silver Lake Wesleyan Camp Logo">
-          </v-flex>
-        </v-layout>
-      </v-container>
-    </v-jumbotron>
+    <v-container fill-height>
+      <v-layout>
+        <v-flex text-xs-center>
+          <img style="max-height: 360px; max-width: 100%;" src="~/assets/img/slwc_logo_color.png" alt="Silver Lake Wesleyan Camp Logo">
+        </v-flex>
+      </v-layout>
+    </v-container>
     <v-container>
       <h3>This is the <em>Home</em> page</h3>
     </v-container>
