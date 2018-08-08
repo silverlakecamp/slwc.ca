@@ -1,6 +1,12 @@
 <style lang="stylus">
   .application
     font-family 'Raleway', sans-serif
+    h1
+      font-family 'Arvo', sans-serif
+      font-weight bold
+    h2, h3, h4, h5, h6
+      font-family 'Montserrat', sans-serif
+      font-weight bold
 
   .loon
     vertical-align bottom
@@ -52,7 +58,7 @@
       <v-toolbar-side-icon @click="drawer = !drawer" />
     </v-toolbar>
     <v-content>
-      <v-container fluid>
+      <v-container fluid pa-0>
         <nuxt />
       </v-container>
     </v-content>

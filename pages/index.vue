@@ -7,22 +7,41 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <v-container>
-      <h3>This is the <em>Home</em> page</h3>
-    </v-container>
-    <v-container fluid>
+    <v-container fluid pa-0>
       <v-layout row wrap>
-        <v-flex
-          v-for="n in 9"
-          :key="n"
-          xs4
-        >
-          <v-card flat tile>
-            <v-card-media
-              :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 100) + 1}`"
-              height="150px"
+        <v-flex lg4>
+          <v-card flat tile hover raised>
+            <v-card-media :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 100) + 1}`"
+              height="500px"
             ></v-card-media>
           </v-card>
+        </v-flex>
+        <v-flex lg8>
+          <v-layout row wrap>
+            <v-flex d-flex>
+              <v-card flat tile hover raised>
+                <v-card-media :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 100) + 1}`"
+                  height="250px"
+                ></v-card-media>
+              </v-card>
+            </v-flex>
+            <v-flex d-flex>
+              <v-card flat tile hover raised>
+                <v-card-media :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 100) + 1}`"
+                  height="250px"
+                ></v-card-media>
+              </v-card>
+            </v-flex>
+          </v-layout>
+          <v-layout row wrap>
+            <v-flex d-flex>
+              <v-card flat tile hover raised>
+                <v-card-media :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 100) + 1}`"
+                  height="250px"
+                ></v-card-media>
+              </v-card>
+            </v-flex>
+          </v-layout>
         </v-flex>
       </v-layout>
     </v-container>
