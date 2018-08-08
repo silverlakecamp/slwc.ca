@@ -1,16 +1,34 @@
 <template>
   <div>
     <v-layout row wrap>
-      <v-flex
-        v-for="n in 6"
-        :key="n"
-        xs4
-      >
+      <v-flex xs4>
         <v-card hover flat tile raised>
-          <v-card-media
-            :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 100) + 1}`"
-            height="200px"
-          ></v-card-media>
+          <v-card-media :src="require('@/assets/img/features/1.jpg')" height="200px"></v-card-media>
+        </v-card>
+      </v-flex>
+      <v-flex xs4>
+        <v-card hover flat tile raised>
+          <v-card-media :src="require('@/assets/img/features/2.jpg')" height="200px"></v-card-media>
+        </v-card>
+      </v-flex>
+      <v-flex xs4>
+        <v-card hover flat tile raised>
+          <v-card-media :src="require('@/assets/img/features/3.jpg')" height="200px"></v-card-media>
+        </v-card>
+      </v-flex>
+      <v-flex xs4>
+        <v-card hover flat tile raised>
+          <v-card-media :src="require('@/assets/img/features/4.jpg')" height="200px"></v-card-media>
+        </v-card>
+      </v-flex>
+      <v-flex xs4>
+        <v-card hover flat tile raised>
+          <v-card-media :src="require('@/assets/img/features/5.jpg')" height="200px"></v-card-media>
+        </v-card>
+      </v-flex>
+      <v-flex xs4>
+        <v-card hover flat tile raised>
+          <v-card-media :src="require('@/assets/img/features/6.jpg')" height="200px"></v-card-media>
         </v-card>
       </v-flex>
     </v-layout>
