@@ -20,11 +20,12 @@
     max-width 100%
     max-height 80px
 
-  #app-footer
-    background-color #777776
-    color white
+  #app-header
     a
-      color #F1F2F2
+      color darken(#B0C954, 60%)
+
+  #app-header, #app-footer
+    a
       text-decoration none
       .meta
         color darken(#777776, 60%)
@@ -32,6 +33,12 @@
           content: " | "
       &:hover
         text-decoration underline
+
+  #app-footer
+    a
+      color #F1F2F2
+    background-color #777776
+    color white
 </style>
 
 <template>
@@ -48,12 +55,18 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar fixed app primary>
+    <v-toolbar fixed app primary id="app-header">
       <nuxt-link to="/" id="back-to-homepage">
         <img class="loon" src="~/assets/img/slwc_icon_black.png" alt="logo" />
         <img class="text-logo" src="~/assets/img/slwc_text_black.png" :alt="title" />
       </nuxt-link>
       <v-toolbar-title v-text="title" hidden />
+      <v-spacer></v-spacer>
+      <v-flex text-xs-center style="margin-left: -10%" class="hidden-sm-and-down">
+        <a href="mailto:info@slwc.ca">info@slwc.ca</a>
+        |
+        <a href="tel:+18775112267">1-877-511-2267</a>
+      </v-flex>
       <v-spacer></v-spacer>
       <v-toolbar-side-icon @click="drawer = !drawer" />
     </v-toolbar>
