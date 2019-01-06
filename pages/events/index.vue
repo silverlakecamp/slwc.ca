@@ -3,32 +3,32 @@
     <v-layout row wrap>
       <v-flex xs4>
         <v-card hover flat tile raised>
-          <v-card-media :src="require('@/assets/img/features/1.jpg')" height="200px"></v-card-media>
+          <v-img :src="require('@/assets/img/features/1.jpg')" height="200px"></v-img>
         </v-card>
       </v-flex>
       <v-flex xs4>
         <v-card hover flat tile raised>
-          <v-card-media :src="require('@/assets/img/features/2.jpg')" height="200px"></v-card-media>
+          <v-img :src="require('@/assets/img/features/2.jpg')" height="200px"></v-img>
         </v-card>
       </v-flex>
       <v-flex xs4>
         <v-card hover flat tile raised>
-          <v-card-media :src="require('@/assets/img/features/3.jpg')" height="200px"></v-card-media>
+          <v-img :src="require('@/assets/img/features/3.jpg')" height="200px"></v-img>
         </v-card>
       </v-flex>
       <v-flex xs4>
         <v-card hover flat tile raised>
-          <v-card-media :src="require('@/assets/img/features/4.jpg')" height="200px"></v-card-media>
+          <v-img :src="require('@/assets/img/features/4.jpg')" height="200px"></v-img>
         </v-card>
       </v-flex>
       <v-flex xs4>
         <v-card hover flat tile raised>
-          <v-card-media :src="require('@/assets/img/features/5.jpg')" height="200px"></v-card-media>
+          <v-img :src="require('@/assets/img/features/5.jpg')" height="200px"></v-img>
         </v-card>
       </v-flex>
       <v-flex xs4>
         <v-card hover flat tile raised>
-          <v-card-media :src="require('@/assets/img/features/6.jpg')" height="200px"></v-card-media>
+          <v-img :src="require('@/assets/img/features/6.jpg')" height="200px"></v-img>
         </v-card>
       </v-flex>
     </v-layout>
@@ -84,7 +84,7 @@
             </v-list-tile>
           </v-list>
           <v-card hover>
-            <v-card-media src="https://unsplash.it/250/250?image" height="200px"></v-card-media>
+            <v-img src="https://unsplash.it/250/250?image" height="200px"></v-img>
           </v-card>
         </v-flex>
       </v-layout>
