@@ -134,14 +134,14 @@
               <br>
               <br>
               <h4>Leadership</h4>
-              <nuxt-link to="/camps/leaders-in-training">Leaders in Training <span class="meta">age 14-16</span></nuxt-link>
+              <nuxt-link to="/camps/leaders-in-training">Leaders in Training <span class="meta">age 14+</span></nuxt-link>
               <br>
               <br>
               <h3>Events</h3>
               <br>
               <nuxt-link to="/events/collide">Collide <span class="meta">grades 6-12</span></nuxt-link>
               <br>
-              <nuxt-link to="/events/young-adults-retreat">Young Adults Retreat <span class="meta">age 18-25</span></nuxt-link>
+              <nuxt-link to="/events/young-adults-retreat">Young Adults Retreat <span class="meta">age 18-28</span></nuxt-link>
               <br>
               <nuxt-link to="/events/work-bee">Work Bee <span class="meta">all ages</span></nuxt-link>
             </div>
