@@ -1,12 +1,5 @@
 <template>
   <div>
-    <v-carousel height="300px" hide-delimiters>
-      <v-carousel-item
-        v-for="(item,i) in carousel_items"
-        :key="i"
-        :src="item.src"
-      ></v-carousel-item>
-    </v-carousel>
     <v-container>
       <h1><span v-text="currentYear" /> Events @ SLWC</h1>
     </v-container>
@@ -55,9 +48,6 @@
   export default {
     data () {
       return {
-        carousel_items: Array.from(Array(6).keys()).map(i => {
-          return {src: require(`@/assets/img/features/${i+1}.jpg`)}
-        }),
         events: this.$store.state.events.events
       }
     }

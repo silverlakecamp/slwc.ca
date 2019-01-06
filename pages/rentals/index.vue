@@ -1,93 +1,180 @@
 <template>
   <div>
-    <v-layout row wrap>
-      <v-flex xs4>
-        <v-card hover flat tile raised>
-          <v-img :src="require('@/assets/img/features/1.jpg')" height="200px"></v-img>
-        </v-card>
-      </v-flex>
-      <v-flex xs4>
-        <v-card hover flat tile raised>
-          <v-img :src="require('@/assets/img/features/2.jpg')" height="200px"></v-img>
-        </v-card>
-      </v-flex>
-      <v-flex xs4>
-        <v-card hover flat tile raised>
-          <v-img :src="require('@/assets/img/features/3.jpg')" height="200px"></v-img>
-        </v-card>
-      </v-flex>
-      <v-flex xs4>
-        <v-card hover flat tile raised>
-          <v-img :src="require('@/assets/img/features/4.jpg')" height="200px"></v-img>
-        </v-card>
-      </v-flex>
-      <v-flex xs4>
-        <v-card hover flat tile raised>
-          <v-img :src="require('@/assets/img/features/5.jpg')" height="200px"></v-img>
-        </v-card>
-      </v-flex>
-      <v-flex xs4>
-        <v-card hover flat tile raised>
-          <v-img :src="require('@/assets/img/features/6.jpg')" height="200px"></v-img>
-        </v-card>
-      </v-flex>
-    </v-layout>
+    <v-container>
+      <h1>Rentals @ SLWC</h1>
+    </v-container>
     <v-container>
       <v-layout row wrap>
         <v-flex md8>
-          <h1>This is the <em>Rentals</em> page</h1>
+          <p>Our facility is very suited for personal and group retreats and gatherings. Churches, youth groups, leadership teams, families and other groups are welcome to rent the facility based on availability.</p>
+          <h2 id="accomodations">Accomodations</h2>
+          <v-container grid-list-xl>
+            <v-layout column wrap>
+              <v-flex v-for="(rental, i) in rentals" :key="i">
+                <v-card>
+                  <v-card-title primary-title>
+                    <h3 class="headline mb-0">
+                      <span v-text="rental.title" />
+                      <span class="grey--text">
+                        (<span v-text="rental.count" /> Available)
+                      </span>
+                    </h3>
+                  </v-card-title>
+                  <v-carousel :cycle="false" v-if="rental.images" height="300px" hide-delimiters>
+                    <v-carousel-item
+                      v-for="(item,i) in rental.images"
+                      :key="i"
+                      :src="item.src"
+                    ></v-carousel-item>
+                  </v-carousel>
+                  <v-card-text>
+                    <p v-text="rental.description" />
+                    <h4>Amenities</h4>
+                    <ul>
+                      <li v-for="(amenity, i) in rental.amenities" :key="i">
+                        <span v-text="amenity" />
+                      </li>
+                    </ul>
+                    <br>
+                    <h4 v-if="rental.fee_data">Fees</h4>
+                    <v-data-table
+                      v-if="rental.fee_data"
+                      :headers="rental.fee_data.headers"
+                      :items="rental.fee_data.fees"
+                      hide-actions
+                    >
+                      <template slot="items" slot-scope="props">
+                        <td>${{props.item.daily}}</td>
+                        <td>${{props.item.weekly}}</td>
+                        <td>${{props.item.monthly}}</td>
+                        <td>${{props.item.seasonal}}</td>
+                        <td>${{props.item.annual}}</td>
+                      </template>
+                    </v-data-table>
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+            </v-layout>
+          </v-container>
           <br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo praesentium voluptatem blanditiis accusamus quisquam soluta vel reprehenderit, deserunt, modi consequatur nihil, harum inventore laborum ducimus. Sit vitae in ex.</p>
-          <p>Enim voluptate nesciunt corrupti, repellendus aliquid ea est facilis, recusandae beatae totam, quia iusto dolor ut fugiat quod nisi dicta iste. Aperiam modi, molestiae hic culpa ad libero, officia quibusdam.</p>
-          <p>Delectus maxime, laboriosam ex esse facilis dignissimos. Vitae minus dicta dignissimos. Ducimus laborum quas repellat nemo illum placeat fuga quaerat, vero ipsa dolor sint illo corporis explicabo, quasi voluptatem architecto?</p>
-          <p>Molestias optio officiis aliquam debitis quam nihil, ipsum est provident maiores quos nam soluta dolorum cumque libero, sit dolor distinctio rerum temporibus quis quisquam velit, necessitatibus numquam, rem. Minus, modi!</p>
-          <p>Pariatur temporibus harum minus voluptas, laboriosam earum ex reiciendis aperiam veritatis. Laboriosam, magnam, enim? Adipisci, deleniti incidunt maiores sequi, fugit nobis tempore esse! Blanditiis est ea repellendus, qui corporis quibusdam.</p>
-          <p>Ipsam quibusdam alias totam quas deserunt tenetur deleniti culpa atque magnam quasi aut officia laboriosam quis sunt expedita nobis harum, reiciendis. Dolore tempora eligendi est voluptates, cupiditate itaque cum blanditiis!</p>
-          <p>Magni quae, quibusdam ex, dignissimos eligendi, obcaecati, minima molestias voluptatum ad et iste excepturi repellendus omnis similique! Dolores ducimus, porro quae cupiditate nulla, delectus iusto assumenda molestias necessitatibus eaque perferendis.</p>
-          <p>Minima maxime ullam ad consequuntur illum perspiciatis odio porro, recusandae debitis nisi optio libero repellat a hic eaque ab architecto eum provident nam autem eligendi tempore ex. Culpa, dolore amet?</p>
-          <p>Dicta nisi praesentium sint accusantium fugiat eos, repudiandae dignissimos, unde excepturi vitae, possimus labore. Odio error quos, nam obcaecati possimus rem illum numquam eum excepturi iste enim, architecto sint, accusantium.</p>
-          <p>Beatae impedit nam consectetur porro sit necessitatibus, est aliquam omnis sint unde illo explicabo eveniet, sunt, distinctio vel optio praesentium quas quo commodi recusandae tempora tempore. Quia enim, nihil nobis!</p>
+          <h2 id="rates">Meals & Lodging Rates</h2>
+          <br>
+          <p>If you are not part of an organized camp or event, and simply want to come to spend a night at the camp or enjoy a meal in the dining hall, the following rates apply.</p>
+          <v-alert
+            :value="true"
+            color="info"
+            icon="info"
+            outline
+            class="black--text"
+          >
+            <b>Dining Hall</b> services are available to the general public from mid-May to mid-October
+          </v-alert>
+          <br>
+          <h2 id="group-rates">Group Rates</h2>
+          <br>
+          <p>2019 Pricing Coming Soon</p>
+          <v-alert
+            :value="true"
+            color="info"
+            icon="info"
+            outline
+            class="black--text"
+          >
+            <b>Student Retreat Group Fees</b> apply only to student groups, not an individual student within a family or other non-student groups.
+          </v-alert>
+          <v-alert
+            :value="true"
+            color="info"
+            icon="info"
+            outline
+            class="black--text"
+          >
+            <b>Gluten/Dairy Free</b> preference meals are available upon request for an additional cost. Advanced notice is required, contact the office for more details. We are very cautious, and will consider each request, but for the safety of all involved we may have to decline a certain food request when we are not 100% certain we can accommodate (for example, Coeliac disease).
+          </v-alert>
         </v-flex>
         <v-flex md3 offset-md1>
-          <v-list two-line>
-            <v-subheader>Sub Navigation</v-subheader>
-            <v-divider></v-divider>
+          <v-list class="elevation-5">
+            <v-subheader>Contact</v-subheader>
+            <v-divider inset></v-divider>
             <v-list-tile>
+              <v-list-tile-action>
+                <v-icon color="gray">phone</v-icon>
+              </v-list-tile-action>
               <v-list-tile-content>
-                <v-list-tile-title>Sub Link 1</v-list-tile-title>
-                <v-list-tile-content>Some Other Stuff</v-list-tile-content>
+                <v-list-tile-title>1-877-511-CAMP (2267)</v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
             <v-list-tile>
+              <v-list-tile-action>
+                <v-icon color="gray">email</v-icon>
+              </v-list-tile-action>
               <v-list-tile-content>
-                <v-list-tile-title>Sub Link 2</v-list-tile-title>
-                <v-list-tile-content>Some Other Stuff</v-list-tile-content>
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-content>
-                <v-list-tile-title>Sub Link 3</v-list-tile-title>
-                <v-list-tile-content>Some Other Stuff</v-list-tile-content>
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-content>
-                <v-list-tile-title>Sub Link 4</v-list-tile-title>
-                <v-list-tile-content>Some Other Stuff</v-list-tile-content>
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-content>
-                <v-list-tile-title>Sub Link 5</v-list-tile-title>
-                <v-list-tile-content>Some Other Stuff</v-list-tile-content>
+                <v-list-tile-title>office@slwc.ca</v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
           </v-list>
-          <v-card hover>
-            <v-img src="https://unsplash.it/250/250?image" height="200px"></v-img>
-          </v-card>
+          <br>
+          <v-list class="elevation-5">
+            <v-subheader>Documents</v-subheader>
+            <v-divider inset></v-divider>
+            <v-list-tile>
+              <v-list-tile-action>
+                <v-icon color="gray">picture_as_pdf</v-icon>
+              </v-list-tile-action>
+              <v-list-tile-content>
+                <v-list-tile-title>
+                  <a href="/files/rental-policy.pdf">Rental Policy</a>
+                </v-list-tile-title>
+              </v-list-tile-content>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-action>
+                <v-icon color="gray">picture_as_pdf</v-icon>
+              </v-list-tile-action>
+              <v-list-tile-content>
+                <v-list-tile-title>
+                  <a href="/files/campground-map.pdf">Facility Map</a>
+                </v-list-tile-title>
+              </v-list-tile-content>
+            </v-list-tile>
+          </v-list>
+          <br>
+          <v-list class="elevation-5">
+            <v-subheader>Rate Information</v-subheader>
+            <v-divider inset></v-divider>
+            <v-list-tile>
+              <v-list-tile-action>
+                <v-icon color="gray">keyboard_arrow_down</v-icon>
+              </v-list-tile-action>
+              <v-list-tile-content>
+                <v-list-tile-title>
+                  <a href="#rates">Meal & Lodging Rates</a>
+                </v-list-tile-title>
+              </v-list-tile-content>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-action>
+                <v-icon color="gray">keyboard_arrow_down</v-icon>
+              </v-list-tile-action>
+              <v-list-tile-content>
+                <v-list-tile-title>
+                  <a href="#group-rates">Group Rates</a>
+                </v-list-tile-title>
+              </v-list-tile-content>
+            </v-list-tile>
+          </v-list>
         </v-flex>
       </v-layout>
     </v-container>
   </div>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        rentals: this.$store.state.rentals.rentals
+      }
+    }
+  }
+</script>
