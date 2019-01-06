@@ -118,32 +118,45 @@
               <h3>Camps</h3>
               <br>
               <h4>Kids &amp; Youth</h4>
-              <nuxt-link to="/camps/vbc">Vacation Bible Camp <span class="meta">age 6-12</span></nuxt-link>
+              <div v-for="(camp, i) in campsForGroups(['kids', 'youth'])">
+                <nuxt-link to="/camps">
+                  <div>
+                    <span v-text="camp.title" />
+                    <span class="meta" v-text="camp.for" />
+                  </div>
+                </nuxt-link>
+              </div>
               <br>
-              <nuxt-link to="/camps/explorer">Explorers <span class="meta">age 7-10</span></nuxt-link>
-              <br>
-              <nuxt-link to="/camps/boys-and-girls">Boys &amp; Girls<span class="meta">age 9-12</span></nuxt-link>
-              <br>
-              <nuxt-link to="/camps/youth">Youth <span class="meta">grades 6-12</span></nuxt-link>
-              <br>
+              <h4>Young Adults</h4>
+              <div v-for="(camp, i) in campsForGroups(['young-adults'])">
+                <nuxt-link to="/camps">
+                  <div>
+                    <span v-text="camp.title" />
+                    <span class="meta" v-text="camp.for" />
+                  </div>
+                </nuxt-link>
+              </div>
               <br>
               <h4>Families</h4>
-              <nuxt-link to="/camps/family">Family Camp <span class="meta">all ages</span></nuxt-link>
-              <br>
-              <nuxt-link to="/camps/geezers">Geezer Camp <span class="meta">ages 60+</span></nuxt-link>
-              <br>
+              <div v-for="(camp, i) in campsForGroups(['families'])">
+                <nuxt-link to="/camps">
+                  <div>
+                    <span v-text="camp.title" />
+                    <span class="meta" v-text="camp.for" />
+                  </div>
+                </nuxt-link>
+              </div>
               <br>
               <h4>Leadership</h4>
-              <nuxt-link to="/camps/leaders-in-training">Leaders in Training <span class="meta">age 14+</span></nuxt-link>
+              <div v-for="(camp, i) in campsForGroups(['leadership'])">
+                <nuxt-link to="/camps">
+                  <div>
+                    <span v-text="camp.title" />
+                    <span class="meta" v-text="camp.for" />
+                  </div>
+                </nuxt-link>
+              </div>
               <br>
-              <br>
-              <h3>Events</h3>
-              <br>
-              <nuxt-link to="/events/collide">Collide <span class="meta">grades 6-12</span></nuxt-link>
-              <br>
-              <nuxt-link to="/events/young-adults-retreat">Young Adults Retreat <span class="meta">age 18-28</span></nuxt-link>
-              <br>
-              <nuxt-link to="/events/work-bee">Work Bee <span class="meta">all ages</span></nuxt-link>
             </div>
           </v-flex>
           <v-flex lg7>
@@ -157,6 +170,16 @@
 
 <script>
   export default {
+    methods: {
+      campsForGroups: function(groups) {
+        let camps = this.$store.state.camps.camps;
+        return groups.map(function(group) {
+          return camps.filter(function(camp) {
+            return camp.group === group;
+          })
+        }).flat();
+      }
+    },
     data () {
       return {
         year: new Date().getFullYear(),
