@@ -159,6 +159,7 @@
   export default {
     data () {
       return {
+        year: new Date().getFullYear(),
         title: 'Silver Lake Wesleyan Camp',
         drawer: false,
         items: [

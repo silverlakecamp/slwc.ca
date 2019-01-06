@@ -8,7 +8,7 @@
       ></v-carousel-item>
     </v-carousel>
     <v-container>
-      <h1>2019 Camps</h1>
+      <h1><span v-text="currentYear" /> Camps</h1>
     </v-container>
     <v-container grid-list-xl>
       <v-layout row wrap justify-space-between>

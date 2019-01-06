@@ -12,3 +12,13 @@ Vue.use(Vuetify, {
     warning: '#b1d235',
   },
 });
+
+Vue.mixin({
+  data: function() {
+    return {
+      get currentYear() {
+        return new Date().getFullYear();
+      }
+    }
+  }
+});

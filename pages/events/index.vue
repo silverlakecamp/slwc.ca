@@ -35,7 +35,7 @@
     <v-container>
       <v-layout row wrap>
         <v-flex md8>
-          <h1>This is the <em>Events</em> page</h1>
+          <h1><span v-text="currentYear" /> Events @ SLWC</h1>
           <br>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo praesentium voluptatem blanditiis accusamus quisquam soluta vel reprehenderit, deserunt, modi consequatur nihil, harum inventore laborum ducimus. Sit vitae in ex.</p>
           <p>Enim voluptate nesciunt corrupti, repellendus aliquid ea est facilis, recusandae beatae totam, quia iusto dolor ut fugiat quod nisi dicta iste. Aperiam modi, molestiae hic culpa ad libero, officia quibusdam.</p>
