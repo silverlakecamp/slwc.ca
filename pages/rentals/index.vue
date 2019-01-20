@@ -92,28 +92,9 @@
             <b>Gluten/Dairy Free</b> preference meals are available upon request for an additional cost. Advanced notice is required, contact the office for more details. We are very cautious, and will consider each request, but for the safety of all involved we may have to decline a certain food request when we are not 100% certain we can accommodate (for example, Coeliac disease).
           </v-alert>
         </v-flex>
-        <v-flex md3 offset-md1>
-          <v-list class="elevation-5">
-            <v-subheader>Contact</v-subheader>
-            <v-divider inset></v-divider>
-            <v-list-tile>
-              <v-list-tile-action>
-                <v-icon color="gray">phone</v-icon>
-              </v-list-tile-action>
-              <v-list-tile-content>
-                <v-list-tile-title>1-877-511-CAMP (2267)</v-list-tile-title>
-              </v-list-tile-content>
-            </v-list-tile>
-            <v-list-tile>
-              <v-list-tile-action>
-                <v-icon color="gray">email</v-icon>
-              </v-list-tile-action>
-              <v-list-tile-content>
-                <v-list-tile-title>office@slwc.ca</v-list-tile-title>
-              </v-list-tile-content>
-            </v-list-tile>
-          </v-list>
-          <br>
+        <v-flex md3 offset-lg1 order-xs1>
+          <CampContactCard />
+          <br />
           <v-list class="elevation-5">
             <v-subheader>Documents</v-subheader>
             <v-divider inset></v-divider>
@@ -170,7 +151,11 @@
 </template>
 
 <script>
+  import CampContactCard from '~/components/camp-contact-card.vue';
   export default {
+    components: {
+      CampContactCard
+    },
     data () {
       return {
         rentals: this.$store.state.rentals.rentals
