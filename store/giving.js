@@ -8,7 +8,7 @@ export const state = () => ({
   ],
   giving: [
     {
-      title: 'Re-new-all Capital Campaign',
+      title: 'Re•new•all Capital Campaign',
       description: `Re•new•all is our capital campaign that will 'renew' and enhance the major facilities, and ultimately the ministry, over a multi-phase plan in the years to come.`,
       paypal_form_id: 'M8FAFYDG8ESLN'
     },
@@ -41,7 +41,7 @@ export const state = () => ({
     {
       title: 'Auto Debit Donation',
       description: `One of the simplest, most thoughtful and helpful means to support our camping ministry is through a regular auto debit donation. You determine the amount, the target to which you give,  and the frequency of your giving. Simply download, print, complete and sign the form. Email or mailing to the listed camp address and you are done. Thank you for your generosity!  Hint: Many of our SLWC Leaseholders care for their annual fees using this method.`,
-      form_url: ''
+      form_url: '/files/auto-debit-donation-form.pdf'
     }
   ]
 })
