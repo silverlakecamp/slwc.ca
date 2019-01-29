@@ -6,27 +6,6 @@
     <v-container>
       <v-layout row wrap>
         <v-flex md8>
-          <h2 id="dogs">Dogs</h2>
-
-          <br>
-
-          <ul>
-            <li>
-              Dogs are welcome on the grounds... so long as they are on a leash and under the control of an adult who cleans up after them.
-            </li>
-            <li>
-              Due to allergies and sanitation issues, we do not permit dogs in accommodations or other public buildings.
-            </li>
-            <li>
-              Dogs are not permitted on the beach.
-            </li>
-            <li>
-              Dogs must have current rabies vaccinations (please have proof available upon request) as per the Department of Health regulation which states: Every operator shall ensure that no animal that is susceptible to rabies is brought into a camp unless the animal has been immunized against rabies at least thirty days and not more than fifteen months prior to the bringing of the animal into the camp. R.R.O. 1990, Reg. 568, s. 7 (3)
-            </li>
-          </ul>
-
-          <br>
-
           <h2 id="rentals">Rentals</h2>
 
           <br>
@@ -38,6 +17,24 @@
           </v-btn>
 
           <br>
+          <br>
+
+          <h2 id="drinking-water-safety">Drinking Water Safety</h2>
+
+          <br>
+
+          <p>SLWC holds to a very strict drinking water treatment, monitoring and testing regimine which ensures a safe drinking water supply for all our campers and guests.</p>
+
+          <p>The following information and documents are available at the SLWC office for review by the public free of charge during normal business hours.</p>
+
+          <ul>
+            <li>All test results</li>
+            <li>Annual Reports</li>
+            <li>Trained Person certificates</li>
+            <li>EER and Declaration of Professional Engineer</li>
+            <li>Copy of O. Reg. 170/3</li>
+          </ul>
+
           <br>
 
           <h2 id="nutrition">Nutrition</h2>
@@ -66,6 +63,27 @@
                 <li>In the event another week is not available you may choose a refund (two-thirds of the fee)</li>
                 <li>Apply 2/3 of the current year fee towards your child’s camp the following season.</li>
               </ul>
+            </li>
+          </ul>
+
+          <br>
+
+          <h2 id="dogs">Dogs</h2>
+
+          <br>
+
+          <ul>
+            <li>
+              Dogs are welcome on the grounds... so long as they are on a leash and under the control of an adult who cleans up after them.
+            </li>
+            <li>
+              Due to allergies and sanitation issues, we do not permit dogs in accommodations or other public buildings.
+            </li>
+            <li>
+              Dogs are not permitted on the beach.
+            </li>
+            <li>
+              Dogs must have current rabies vaccinations (please have proof available upon request) as per the Department of Health regulation which states: Every operator shall ensure that no animal that is susceptible to rabies is brought into a camp unless the animal has been immunized against rabies at least thirty days and not more than fifteen months prior to the bringing of the animal into the camp. R.R.O. 1990, Reg. 568, s. 7 (3)
             </li>
           </ul>
 
@@ -118,22 +136,6 @@
 
           <br>
 
-          <h3 id="drinking-water-safety">Drinking Water Safety</h3>
-
-          <br>
-
-          <p>SLWC holds to a very strict drinking water treatment, monitoring and testing regimine which ensures a safe drinking water supply for all our campers and guests.</p>
-
-          <p>The following information and documents are available at the SLWC office for review by the public free of charge during normal business hours.</p>
-
-          <ul>
-            <li>All test results</li>
-            <li>Annual Reports</li>
-            <li>Trained Person certificates</li>
-            <li>EER and Declaration of Professional Engineer</li>
-            <li>Copy of O. Reg. 170/3</li>
-          </ul>
-
         </v-flex>
         <v-flex md3 offset-lg1>
           <v-list class="elevation-5">
@@ -145,7 +147,7 @@
               </v-list-tile-action>
               <v-list-tile-content>
                 <v-list-tile-title>
-                  <a href="#dogs">Dogs</a>
+                  <a href="#rentals">Rentals</a>
                 </v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
@@ -155,7 +157,7 @@
               </v-list-tile-action>
               <v-list-tile-content>
                 <v-list-tile-title>
-                  <a href="#rentals">Rentals</a>
+                  <a href="#drinking-water-safety">Drinking Water Safety</a>
                 </v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
@@ -185,7 +187,7 @@
               </v-list-tile-action>
               <v-list-tile-content>
                 <v-list-tile-title>
-                  <a href="#refunds">Refunds</a>
+                  <a href="#dogs">Dogs</a>
                 </v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
@@ -195,7 +197,7 @@
               </v-list-tile-action>
               <v-list-tile-content>
                 <v-list-tile-title>
-                  <a href="#drinking-water-safety">Drinking Water Safety</a>
+                  <a href="#refunds">Refunds</a>
                 </v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
