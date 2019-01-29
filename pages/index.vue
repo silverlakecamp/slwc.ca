@@ -9,6 +9,30 @@
       left 0
       margin auto
       top 25px
+
+  .image-overlay
+    position relative
+    &:hover
+      .image-overlay-text
+        opacity 1
+        transition: 1s ease-out
+      .v-image__image
+        filter sepia(100%)
+        transition: 1s ease-out
+    .image-overlay-text
+      opacity 0
+      position absolute
+      bottom 20%
+      font-size 3rem
+      z-index 1
+      background-color transparent
+      span
+        padding 10px
+        padding-right 20px
+        color white
+        background rgb(0,0,0)
+        background rgba(0,0,0,0.7)
+
 </style>
 
 <template>
@@ -26,28 +50,48 @@
     <v-container fluid pa-0>
       <v-layout row wrap>
         <v-flex lg4>
-          <v-card flat tile hover raised>
-            <v-img :src="require('@/assets/img/features/1.jpg')" height="500px"></v-img>
-          </v-card>
+          <nuxt-link to="/camps">
+            <v-card class="image-overlay" flat tile hover raised>
+              <h2 class="image-overlay-text">
+                <span>Camps</span>
+              </h2>
+              <v-img :src="require('@/assets/img/features/1.jpg')" height="500px"></v-img>
+            </v-card>
+          </nuxt-link>
         </v-flex>
         <v-flex lg8>
           <v-layout row wrap>
             <v-flex d-flex>
-              <v-card flat tile hover raised>
-                <v-img :src="require('@/assets/img/features/2.jpg')" height="250px"></v-img>
-              </v-card>
+              <nuxt-link to="/events">
+                <v-card class="image-overlay" flat tile hover raised>
+                  <h2 class="image-overlay-text">
+                    <span>Events</span>
+                  </h2>
+                  <v-img :src="require('@/assets/img/features/2.jpg')" height="250px"></v-img>
+                </v-card>
+              </nuxt-link>
             </v-flex>
             <v-flex d-flex>
-              <v-card flat tile hover raised>
-                <v-img :src="require('@/assets/img/features/3.jpg')" height="250px"></v-img>
-              </v-card>
+              <nuxt-link to="/giving">
+                <v-card class="image-overlay" flat tile hover raised>
+                  <h2 class="image-overlay-text">
+                    <span>Giving</span>
+                  </h2>
+                  <v-img :src="require('@/assets/img/features/3.jpg')" height="250px"></v-img>
+                </v-card>
+              </nuxt-link>
             </v-flex>
           </v-layout>
           <v-layout row wrap>
             <v-flex d-flex>
-              <v-card flat tile hover raised>
-                <v-img :src="require('@/assets/img/features/4.jpg')" height="250px"></v-img>
-              </v-card>
+              <nuxt-link to="/rentals">
+                <v-card class="image-overlay" flat tile hover raised>
+                  <h2 class="image-overlay-text">
+                    <span>Rentals</span>
+                  </h2>
+                  <v-img :src="require('@/assets/img/features/4.jpg')" height="250px"></v-img>
+                </v-card>
+              </nuxt-link>
             </v-flex>
           </v-layout>
         </v-flex>
