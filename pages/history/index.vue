@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>History &amp; Perspective @ SLWC</h1>
+      <h1>History &amp; Perspective</h1>
     </v-container>
     <v-container>
       <v-layout row wrap>

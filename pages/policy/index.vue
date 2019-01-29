@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>Policy @ SLWC</h1>
+      <h1>Policy</h1>
     </v-container>
     <v-container>
       <v-layout row wrap>

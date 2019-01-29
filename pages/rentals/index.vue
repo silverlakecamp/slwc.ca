@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>Rentals @ SLWC</h1>
+      <h1>Rentals</h1>
     </v-container>
     <v-container>
       <v-layout row wrap>

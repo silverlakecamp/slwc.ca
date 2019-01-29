@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>Payments / Giving @ SLWC</h1>
+      <h1>Giving</h1>
     </v-container>
     <v-container>
       <v-layout row wrap>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1><span v-text="currentYear" /> Events @ SLWC</h1>
+      <h1><span v-text="currentYear" /> Events</h1>
     </v-container>
     <v-container grid-list-xl>
       <v-layout row wrap justify-space-between>
