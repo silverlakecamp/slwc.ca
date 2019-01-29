@@ -1,11 +1,4 @@
 export const state = () => ({
-  payments: [
-    {
-      title: 'Cottage/Trailer Payment',
-      description: 'Payments for cottage/trailer lease fees.',
-      paypal_form_id: '69TQRHFB387VN'
-    }
-  ],
   giving: [
     {
       title: 'Re•new•all Capital Campaign',
@@ -40,7 +33,7 @@ export const state = () => ({
     },
     {
       title: 'Auto Debit Donation',
-      description: `One of the simplest, most thoughtful and helpful means to support our camping ministry is through a regular auto debit donation. You determine the amount, the target to which you give,  and the frequency of your giving. Simply download, print, complete and sign the form. Email or mailing to the listed camp address and you are done. Thank you for your generosity!  Hint: Many of our SLWC Leaseholders care for their annual fees using this method.`,
+      description: `One of the simplest, most thoughtful and helpful means to support our camping ministry is through a regular auto debit donation. You determine the amount, the target to which you give,  and the frequency of your giving. Simply download, print, complete and sign the form. Email or mail to the listed camp address and you are done. Thank you for your generosity!`,
       form_url: '/files/auto-debit-donation-form.pdf'
     }
   ]

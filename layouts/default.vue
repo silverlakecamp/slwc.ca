@@ -189,7 +189,8 @@
           { icon: 'beach_access', title: 'Camps', to: '/camps' },
           { icon: 'event', title: 'Events', to: '/events' },
           { icon: 'book', title: 'Rentals', to: '/rentals' },
-          { icon: 'attach_money', title: 'Giving', to: '/giving' }
+          { icon: 'attach_money', title: 'Giving', to: '/giving' },
+          { icon: 'attach_money', title: 'Payments', to: '/payments' },
         ]
       }
     }

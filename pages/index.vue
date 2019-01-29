@@ -17,7 +17,7 @@
         opacity 1
         transition: 1s ease-out
       .v-image__image
-        filter sepia(100%)
+        filter grayscale(100%)
         transition: 1s ease-out
     .image-overlay-text
       opacity 0

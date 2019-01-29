@@ -16,7 +16,7 @@
                     <h3 class="headline mb-0">
                       <span v-text="rental.title" />
                       <span class="grey--text">
-                        (<span v-text="rental.count" /> Available)
+                        (<span v-text="availabilityFor(rental.count)" />)
                       </span>
                     </h3>
                   </v-card-title>
@@ -155,6 +155,11 @@
   export default {
     components: {
       CampContactCard
+    },
+    methods: {
+      availabilityFor: function(count) {
+        return typeof count === 'number' ? `${count} Available` : 'Call for Availability';
+      }
     },
     data () {
       return {

@@ -12,7 +12,7 @@ export const state = () => ({
     {
       title: 'Trailer Sites',
       description: 'Brook Kidron Trailer Sites',
-      count: 19,
+      count: 'Call',
       amenities: [
         'Water',
         'Comfort Station (Washrooms, Showers)',
