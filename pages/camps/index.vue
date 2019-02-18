@@ -24,7 +24,7 @@
             </v-card-title>
 
            <v-card-actions>
-             <v-btn flat large color="green">Register!</v-btn>
+             <v-btn flat large color="green" :href="registrationLinkFor(camp.activeSessionId)" target="_blank">Register!</v-btn>
            </v-card-actions>
           </v-card>
         </v-flex>
@@ -35,6 +35,11 @@
 
 <script>
   export default {
+    methods: {
+      registrationLinkFor: function(sessionId) {
+        return `https://campscui.active.com/orgs/SilverLakeWesleyanCamp#/selectSessions/${sessionId}`;
+      }
+    },
     data () {
       return {
         carousel_items: Array.from(Array(6).keys()).map(i => {

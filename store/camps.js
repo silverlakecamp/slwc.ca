@@ -7,7 +7,8 @@ export const state = () => ({
       description: 'Come join with other young adults for an amazing weekend to kick off our camping season!',
       for: 'age 18-28',
       image: require(`@/assets/img/camps/young-adults.jpg`),
-      group: 'young-adults'
+      group: 'young-adults',
+      activeSessionId: '2487207'
     },
     {
       slug: 'collide-weekend',
@@ -16,7 +17,8 @@ export const state = () => ({
       description: `An awesome time for students! You won't want to miss it!`,
       for: 'grade 6-12',
       image: require(`@/assets/img/camps/collide-weekend.jpg`),
-      group: 'youth'
+      group: 'youth',
+      activeSessionId: '2541503'
     },
     {
       slug: 'leaders-in-training',
@@ -25,7 +27,8 @@ export const state = () => ({
       description: `For those who want to help in a leadership capacity during the summer of camping.`,
       for: 'age 14+',
       image: require(`@/assets/img/camps/leaders-in-training.jpg`),
-      group: 'leadership'
+      group: 'leadership',
+      activeSessionId: '2542412'
     },
     {
       slug: 'family-camp',
@@ -34,7 +37,8 @@ export const state = () => ({
       description: `Family fun! Activities! Slides! Watersports... and lots more!`,
       for: 'all ages',
       image: require(`@/assets/img/camps/family-camp.jpg`),
-      group: 'families'
+      group: 'families',
+      activeSessionId: '2543406'
     },
     {
       slug: 'junior-kids-camp',
@@ -43,7 +47,8 @@ export const state = () => ({
       description: `For kids! A great first-time camping experience!`,
       for: 'age 7-10',
       image: require(`@/assets/img/camps/junior-kids.jpg`),
-      group: 'kids'
+      group: 'kids',
+      activeSessionId: '2542205'
     },
     {
       slug: 'youth-camp',
@@ -52,7 +57,8 @@ export const state = () => ({
       description: `Yoooooouth Caaaaaamp! Be there!`,
       for: 'grade 6-12',
       image: require(`@/assets/img/camps/youth-camp.jpg`),
-      group: 'youth'
+      group: 'youth',
+      activeSessionId: '2543804'
     },
     {
       slug: 'kids-camp-1',
@@ -61,34 +67,38 @@ export const state = () => ({
       description: `First kids camp of the season. Bring your friends!`,
       for: 'age 9-12',
       image: require(`@/assets/img/camps/kids-camp-1.jpg`),
-      group: 'kids'
+      group: 'kids',
+      activeSessionId: '2543214'
     },
     {
       slug: 'geezer-camp',
       title: 'Geezer Camp',
-      dates: 'Aug 5 - 9',
+      dates: 'August 5 - 9',
       description: `For the young at heart! Bring your funnest self!`,
       for: 'age 60+',
       image: require('@/assets/img/camps/geezer-camp.jpg'),
-      group: 'families'
+      group: 'families',
+      activeSessionId: '2543314'
     },
     {
       slug: 'kids-camp-2',
       title: 'Kids Camp 2',
-      dates: 'Aug 11 - 17',
+      dates: 'August 11 - 17',
       description: `If you didn't have enough fun in the first kids camp, come on out for round two!`,
       for: 'age 9-12',
       image: require(`@/assets/img/camps/kids-camp-2.jpg`),
-      group: 'kids'
+      group: 'kids',
+      activeSessionId: '2542811'
     },
     {
       slug: 'sports-camp',
       title: 'Sports Camp',
-      dates: 'Aug 18 - 24',
+      dates: 'August 18 - 24',
       description: `For the sporty kids! 3-2-1 Break!`,
       for: 'age 9-12',
       image: require(`@/assets/img/camps/sports-camp.jpg`),
-      group: 'kids'
+      group: 'kids',
+      activeSessionId: '2544610'
     }
   ]
 })
