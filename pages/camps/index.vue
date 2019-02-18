@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-carousel height="300px" hide-delimiters>
+    <v-carousel height="500px" hide-delimiters>
       <v-carousel-item
         v-for="(item,i) in carousel_items"
         :key="i"
@@ -38,7 +38,7 @@
     data () {
       return {
         carousel_items: Array.from(Array(6).keys()).map(i => {
-          return {src: require(`@/assets/img/features/${i+1}.jpg`)}
+          return {src: require(`@/assets/img/camps/carousel/${i+1}.jpg`)}
         }),
         camps: this.$store.state.camps.camps
       }

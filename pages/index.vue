@@ -14,24 +14,27 @@
     position relative
     &:hover
       .image-overlay-text
-        opacity 1
+        background rgb(0,0,0)
+        background rgba(0,0,0,0.7)
         transition: 1s ease-out
       .v-image__image
         filter grayscale(100%)
         transition: 1s ease-out
     .image-overlay-text
-      opacity 0
       position absolute
-      bottom 20%
+      width 100%
+      bottom 10px
+      text-align right
       font-size 3rem
+      font-weight bolder
+      text-transform uppercase
       z-index 1
       background-color transparent
       span
+        text-shadow 2px 4px 3px rgba(0,0,0,0.3)
         padding 10px
         padding-right 20px
         color white
-        background rgb(0,0,0)
-        background rgba(0,0,0,0.7)
 
 </style>
 
@@ -67,7 +70,7 @@
                   <h2 class="image-overlay-text">
                     <span>Events</span>
                   </h2>
-                  <v-img :src="require('@/assets/img/features/2.jpg')" height="250px"></v-img>
+                  <v-img :src="require('@/assets/img/features/8.jpg')" height="250px"></v-img>
                 </v-card>
               </nuxt-link>
             </v-flex>
@@ -77,7 +80,7 @@
                   <h2 class="image-overlay-text">
                     <span>Giving</span>
                   </h2>
-                  <v-img :src="require('@/assets/img/features/3.jpg')" height="250px"></v-img>
+                  <v-img :src="require('@/assets/img/features/9.jpg')" height="250px"></v-img>
                 </v-card>
               </nuxt-link>
             </v-flex>
@@ -89,7 +92,7 @@
                   <h2 class="image-overlay-text">
                     <span>Rentals</span>
                   </h2>
-                  <v-img :src="require('@/assets/img/features/4.jpg')" height="250px"></v-img>
+                  <v-img :src="require('@/assets/img/features/14.jpg')" height="250px"></v-img>
                 </v-card>
               </nuxt-link>
             </v-flex>

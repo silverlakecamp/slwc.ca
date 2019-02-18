@@ -1,5 +1,12 @@
 <template>
   <div>
+    <v-carousel height="500px" hide-delimiters>
+      <v-carousel-item
+        v-for="(item,i) in carousel_items"
+        :key="i"
+        :src="item.src"
+      ></v-carousel-item>
+    </v-carousel>
     <v-container>
       <h1>Donate</h1>
     </v-container>
@@ -74,6 +81,9 @@
       return {
         giving: this.$store.state.giving.giving,
         payments: this.$store.state.giving.payments,
+        carousel_items: Array.from(Array(6).keys()).map(i => {
+          return {src: require(`@/assets/img/giving/carousel/${i+1}.jpg`)}
+        }),
       }
     }
   }
