@@ -42,7 +42,7 @@
             </v-card-text>
 
             <v-card-actions>
-             <v-btn v-if="event.requiresRegistration" flat large color="green">Register!</v-btn>
+             <v-btn v-if="event.requiresRegistration" flat large color="green" :href="event.registrationUrl" target="_blank">Register!</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>

@@ -3,7 +3,7 @@ export const state = () => ({
     {
       title: 'Family Day at the Lake',
       description: `Spend a day in the beautiful scenery of frozen Silver Lake with family and friends. There is something for everyone.`,
-      dates: 'TBA',
+      dates: 'Monday, February 18th - 2019',
       times: '9:00am to 5:00pm',
       image: require(`@/assets/img/events/family-day.jpg`),
       schedule: [
@@ -21,7 +21,8 @@ export const state = () => ({
         'Cross Country Skiing*'
       ],
       meta: '*bring your own equipment',
-      requiresRegistration: false
+      requiresRegistration: true,
+      registrationUrl: 'https://www.eventbrite.ca/e/family-day-2019-tickets-54995373643'
     },
     {
       title: 'Spring Work Bee',
@@ -42,7 +43,7 @@ export const state = () => ({
         'Garbage Disposal'
       ],
       meta: '',
-      requiresRegistration: true
+      requiresRegistration: false
     }
   ]
 })
