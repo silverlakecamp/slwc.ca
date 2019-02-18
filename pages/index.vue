@@ -51,19 +51,19 @@
       </video>
     </v-responsive>
     <v-container fluid pa-0>
-      <v-layout row wrap>
+      <v-layout :column="$vuetify.breakpoint.smAndDown" :row="$vuetify.breakpoint.mdAndUp" wrap>
         <v-flex lg4>
           <nuxt-link to="/camps">
             <v-card class="image-overlay" flat tile hover raised>
               <h2 class="image-overlay-text">
                 <span>Camps</span>
               </h2>
-              <v-img cover :src="require('@/assets/img/features/1.jpg')" height="500px"></v-img>
+              <v-img cover :src="require('@/assets/img/features/1.jpg')" :height="$vuetify.breakpoint.smAndDown ? '250px' : '500px'"></v-img>
             </v-card>
           </nuxt-link>
         </v-flex>
         <v-flex lg8>
-          <v-layout row wrap>
+          <v-layout :column="$vuetify.breakpoint.smAndDown" :row="$vuetify.breakpoint.mdAndUp" wrap>
             <v-flex d-flex>
               <nuxt-link to="/events">
                 <v-card class="image-overlay" flat tile hover raised>
@@ -85,7 +85,7 @@
               </nuxt-link>
             </v-flex>
           </v-layout>
-          <v-layout row wrap>
+          <v-layout :column="$vuetify.breakpoint.smAndDown" :row="$vuetify.breakpoint.mdAndUp" wrap>
             <v-flex d-flex>
               <nuxt-link to="/rentals">
                 <v-card class="image-overlay" flat tile hover raised>

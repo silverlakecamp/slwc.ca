@@ -101,6 +101,8 @@
               <a href="/history">History</a>
               <br>
               <a href="/policy">Policy</a>
+              <br>
+              <a class="hidden-md-and-up" href="https://maps.google.com/maps?ll=44.835455,-76.593231&z=14&t=m&hl=en-US&gl=CA&mapclient=embed&cid=2469503918391799052" target="_blank">Directions</a>
             </div>
 
             <div class="social-media">
@@ -159,7 +161,7 @@
               <br>
             </div>
           </v-flex>
-          <v-flex lg7>
+          <v-flex lg7 hidden-sm-and-down>
             <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11317.272312879688!2d-76.5932308!3d44.8354553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x224570bad32dad0c!2sSilver+Lake+Wesleyan+Camp!5e0!3m2!1sen!2sca!4v1473269309127" frameborder="0" width="600" height="450"></iframe>
           </v-flex>
         </v-layout>
