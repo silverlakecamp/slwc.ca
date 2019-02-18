@@ -58,7 +58,7 @@
               <h2 class="image-overlay-text">
                 <span>Camps</span>
               </h2>
-              <v-img :src="require('@/assets/img/features/1.jpg')" height="500px"></v-img>
+              <v-img cover :src="require('@/assets/img/features/1.jpg')" height="500px"></v-img>
             </v-card>
           </nuxt-link>
         </v-flex>
@@ -70,7 +70,7 @@
                   <h2 class="image-overlay-text">
                     <span>Events</span>
                   </h2>
-                  <v-img :src="require('@/assets/img/features/8.jpg')" height="250px"></v-img>
+                  <v-img cover :src="require('@/assets/img/features/8.jpg')" height="250px"></v-img>
                 </v-card>
               </nuxt-link>
             </v-flex>
@@ -80,7 +80,7 @@
                   <h2 class="image-overlay-text">
                     <span>Giving</span>
                   </h2>
-                  <v-img :src="require('@/assets/img/features/9.jpg')" height="250px"></v-img>
+                  <v-img cover :src="require('@/assets/img/features/9.jpg')" height="250px"></v-img>
                 </v-card>
               </nuxt-link>
             </v-flex>
@@ -92,7 +92,7 @@
                   <h2 class="image-overlay-text">
                     <span>Rentals</span>
                   </h2>
-                  <v-img :src="require('@/assets/img/features/14.jpg')" height="250px"></v-img>
+                  <v-img cover :src="require('@/assets/img/features/14.jpg')" height="250px"></v-img>
                 </v-card>
               </nuxt-link>
             </v-flex>
