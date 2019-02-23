@@ -22,9 +22,11 @@
                 <div v-text="camp.description" />
               </div>
             </v-card-title>
-
-           <v-card-actions>
-             <v-btn flat large color="green" :href="registrationLinkFor(camp.activeSessionId)" target="_blank">Register!</v-btn>
+            <v-card-actions>
+              <v-btn v-if="!camp.full" flat large color="green" :href="registrationLinkFor(camp.activeSessionId)" target="_blank">Register!</v-btn>
+              <v-btn v-if="camp.full" flat large color="green" href="mailto:office@slwc.ca?subject=Family%20Camp%20Registration">
+                Contact the camp office for more info
+              </v-btn>
            </v-card-actions>
           </v-card>
         </v-flex>

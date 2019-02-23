@@ -8,7 +8,8 @@ export const state = () => ({
       for: 'age 18-28',
       image: require(`@/assets/img/camps/young-adults.jpg`),
       group: 'young-adults',
-      activeSessionId: '2487207'
+      activeSessionId: '2487207',
+      full: false
     },
     {
       slug: 'collide-weekend',
@@ -18,7 +19,8 @@ export const state = () => ({
       for: 'grade 6-12',
       image: require(`@/assets/img/camps/collide-weekend.jpg`),
       group: 'youth',
-      activeSessionId: '2541503'
+      activeSessionId: '2541503',
+      full: false
     },
     {
       slug: 'leaders-in-training',
@@ -28,7 +30,8 @@ export const state = () => ({
       for: 'age 14+',
       image: require(`@/assets/img/camps/leaders-in-training.jpg`),
       group: 'leadership',
-      activeSessionId: '2542412'
+      activeSessionId: '2542412',
+      full: false
     },
     {
       slug: 'family-camp',
@@ -38,7 +41,8 @@ export const state = () => ({
       for: 'all ages',
       image: require(`@/assets/img/camps/family-camp.jpg`),
       group: 'families',
-      activeSessionId: '2543406'
+      activeSessionId: '2543406',
+      full: true
     },
     {
       slug: 'junior-kids-camp',
@@ -48,7 +52,8 @@ export const state = () => ({
       for: 'age 7-10',
       image: require(`@/assets/img/camps/junior-kids.jpg`),
       group: 'kids',
-      activeSessionId: '2542205'
+      activeSessionId: '2542205',
+      full: false
     },
     {
       slug: 'youth-camp',
@@ -58,7 +63,8 @@ export const state = () => ({
       for: 'grade 6-12',
       image: require(`@/assets/img/camps/youth-camp.jpg`),
       group: 'youth',
-      activeSessionId: '2543804'
+      activeSessionId: '2543804',
+      full: false
     },
     {
       slug: 'kids-camp-1',
@@ -68,7 +74,8 @@ export const state = () => ({
       for: 'age 9-12',
       image: require(`@/assets/img/camps/kids-camp-1.jpg`),
       group: 'kids',
-      activeSessionId: '2543214'
+      activeSessionId: '2543214',
+      full: false
     },
     {
       slug: 'geezer-camp',
@@ -78,7 +85,8 @@ export const state = () => ({
       for: 'age 60+',
       image: require('@/assets/img/camps/geezer-camp.jpg'),
       group: 'families',
-      activeSessionId: '2543314'
+      activeSessionId: '2543314',
+      full: false
     },
     {
       slug: 'kids-camp-2',
@@ -88,7 +96,8 @@ export const state = () => ({
       for: 'age 9-12',
       image: require(`@/assets/img/camps/kids-camp-2.jpg`),
       group: 'kids',
-      activeSessionId: '2542811'
+      activeSessionId: '2542811',
+      full: false
     },
     {
       slug: 'sports-camp',
@@ -98,7 +107,8 @@ export const state = () => ({
       for: 'age 9-12',
       image: require(`@/assets/img/camps/sports-camp.jpg`),
       group: 'kids',
-      activeSessionId: '2544610'
+      activeSessionId: '2544610',
+      full: false
     }
   ]
 })
