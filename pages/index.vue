@@ -78,7 +78,7 @@
               <nuxt-link to="/giving">
                 <v-card class="image-overlay" flat tile hover raised>
                   <h2 class="image-overlay-text">
-                    <span>Giving</span>
+                    <span>Give</span>
                   </h2>
                   <v-img cover :src="require('@/assets/img/features/9.jpg')" height="250px"></v-img>
                 </v-card>

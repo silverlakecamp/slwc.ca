@@ -102,6 +102,8 @@
               <br>
               <a href="/policy">Policy</a>
               <br>
+              <a href="/newsletter">Newsletter</a>
+              <br>
               <a class="hidden-md-and-up" href="https://maps.google.com/maps?ll=44.835455,-76.593231&z=14&t=m&hl=en-US&gl=CA&mapclient=embed&cid=2469503918391799052" target="_blank">Directions</a>
             </div>
 
@@ -191,7 +193,7 @@
           { icon: 'beach_access', title: 'Camps', to: '/camps' },
           { icon: 'event', title: 'Events', to: '/events' },
           { icon: 'book', title: 'Rentals', to: '/rentals' },
-          { icon: 'attach_money', title: 'Giving', to: '/giving' },
+          { icon: 'attach_money', title: 'Give', to: '/giving' },
           { icon: 'attach_money', title: 'Payments', to: '/payments' },
         ]
       }
