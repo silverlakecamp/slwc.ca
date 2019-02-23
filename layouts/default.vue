@@ -104,6 +104,8 @@
               <br>
               <a href="/newsletter">Newsletter</a>
               <br>
+              <a href="/work-at-slwc">Work at SLWC</a>
+              <br>
               <a class="hidden-md-and-up" href="https://maps.google.com/maps?ll=44.835455,-76.593231&z=14&t=m&hl=en-US&gl=CA&mapclient=embed&cid=2469503918391799052" target="_blank">Directions</a>
             </div>
 
