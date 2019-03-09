@@ -1,6 +1,28 @@
 export const state = () => ({
   events: [
     {
+      title: 'Bikers for Christ - Rally for the Son',
+      description: `Love motorcycles? This event is for you! Two days at SLWC with rides, special guest speakers, good food and more!`,
+      dates: 'June 14th to 16th - 2019',
+      times: '9:00am to 5:00pm',
+      image: require(`@/assets/img/events/rally-for-the-son.png`),
+      schedule: null,
+      activities: null,
+      meta: [
+        'Bikers for Christ',
+        'International Elder',
+        'Joey Beldon Collins "Chief"'
+      ],
+      externalContacts: [
+        'Don McGlashing',
+        'seobikersforchrist@hotmail.com',
+        '613-922-7071'
+      ],
+      externalMediaUrl: '/events/2019-rally-for-the-son-poster.pdf',
+      requiresRegistration: true,
+      registrationUrl: 'https://campscui.active.com/orgs/SilverLakeWesleyanCamp#/selectSessions/2607807'
+    },
+    {
       title: 'Family Day at the Lake',
       description: `Spend a day in the beautiful scenery of frozen Silver Lake with family and friends. There is something for everyone.`,
       dates: 'Monday, February 18th - 2019',
@@ -20,8 +42,10 @@ export const state = () => ({
         'Skating*',
         'Cross Country Skiing*'
       ],
-      meta: '*bring your own equipment',
-      requiresRegistration: true,
+      meta: [
+        '*bring your own equipment'
+      ],
+      requiresRegistration: false,
       registrationUrl: 'https://www.eventbrite.ca/e/family-day-2019-tickets-54995373643'
     },
     {

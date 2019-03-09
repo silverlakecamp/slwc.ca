@@ -25,24 +25,47 @@
 
             <v-card-text>
               <div>
-                <h4>Schedule</h4>
-                <ul>
-                  <li v-for="(scheduleItem, i) in event.schedule" :key="i">
-                    <span v-text="scheduleItem"></span>
-                  </li>
-                </ul>
-                <br>
-                <h4>Activities</h4>
-                <ul>
-                  <li v-for="(activity, i) in event.activities" :key="i">
-                    <span v-text="activity"></span>
-                  </li>
-                </ul>
+                <div v-if="event.schedule">
+                  <h4>Schedule</h4>
+                  <ul>
+                    <li v-for="(scheduleItem, i) in event.schedule" :key="i">
+                      <span v-text="scheduleItem"></span>
+                    </li>
+                  </ul>
+                  <br>
+                </div>
+                <div v-if="event.activities">
+                  <h4>Activities</h4>
+                  <ul>
+                    <li v-for="(activity, i) in event.activities" :key="i">
+                      <span v-text="activity"></span>
+                    </li>
+                  </ul>
+                  <br>
+                </div>
+                <div v-if="event.meta">
+                  <h4>Additional Info</h4>
+                  <ul>
+                    <li v-for="(info, i) in event.meta" :key="i">
+                      <span v-text="info"></span>
+                    </li>
+                  </ul>
+                  <br>
+                </div>
+                <div v-if="event.externalContacts">
+                  <h4>For More Info Contact</h4>
+                  <ul>
+                    <li v-for="(contact, i) in event.externalContacts" :key="i">
+                      <span v-text="contact"></span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </v-card-text>
 
             <v-card-actions>
              <v-btn v-if="event.requiresRegistration" flat large color="green" :href="event.registrationUrl" target="_blank">Register!</v-btn>
+             <v-btn v-if="event.externalMediaUrl" flat large color="blue" :href="event.externalMediaUrl" target="_blank">Downloadable Poster</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
