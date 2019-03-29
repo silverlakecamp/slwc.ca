@@ -65,6 +65,9 @@
 
             <v-card-actions>
              <v-btn v-if="event.requiresRegistration" flat large color="green" :href="event.registrationUrl" target="_blank">Register!</v-btn>
+             <v-btn v-if="event.emailForInfo" flat large color="green" :href="event.emailForInfoUrl">
+                Contact the camp office for more info
+              </v-btn>
              <v-btn v-if="event.externalMediaUrl" flat large color="blue" :href="event.externalMediaUrl" target="_blank">Downloadable Poster</v-btn>
             </v-card-actions>
           </v-card>

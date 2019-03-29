@@ -19,7 +19,9 @@ export const state = () => ({
         '613-922-7071'
       ],
       externalMediaUrl: '/events/2019-rally-for-the-son-poster.pdf',
-      requiresRegistration: true,
+      requiresRegistration: false,
+      emailForInfo: true,
+      emailForInfoUrl: 'mailto:office@slwc.ca?subject=Biker%20Rally%20Info',
       registrationUrl: 'https://campscui.active.com/orgs/SilverLakeWesleyanCamp#/selectSessions/2607807'
     },
     {
