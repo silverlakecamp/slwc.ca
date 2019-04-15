@@ -33,11 +33,11 @@
 
           <br>
 
-          <h2>Interested in applying for our Summery Ministry Team?</h2>
+          <h2>Interested in applying for our Summer Ministry Team?</h2>
 
           <br>
 
-          <p>Please submit your resume and a cover letter detailing your relationship with Jesus Christ and why you want to work at Silver Lake to <a href="mailto:resume@slwc.ca">resume@slwc.ca</a>.  If you have any questions regarding our Summer Ministry Team feel free to email them to the above address or contact the Lake office at 1-877-511-2267.  As a part of your employment you will be required to sign the <a href="/files/slwc-ministry-team-code-of-conduct.pdf">Code of Conduct</a>.  </p>
+          <p>Please submit your resume and a cover letter by <em>March 1st</em> detailing your relationship with Jesus Christ and why you want to work at Silver Lake to <a href="mailto:resume@slwc.ca">resume@slwc.ca</a>.  If you have any questions regarding our Summer Ministry Team feel free to email them to the above address or contact the Lake office at 1-877-511-2267.  As a part of your employment you will be required to sign the <a href="/files/slwc-ministry-team-code-of-conduct.pdf">Code of Conduct</a>.  </p>
 
           <p>Please read this document and familiarize yourself with it, as you will be required to sign it to work at SLWC.  Thank you and we are excited to hear from you!</p>
         </v-flex>
