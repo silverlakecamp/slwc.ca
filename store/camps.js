@@ -86,7 +86,7 @@ export const state = () => ({
       image: require('@/assets/img/camps/geezer-camp.jpg'),
       group: 'families',
       activeSessionId: '2543314',
-      full: false
+      full: true
     },
     {
       slug: 'kids-camp-2',

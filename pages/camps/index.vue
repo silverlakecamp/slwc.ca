@@ -24,7 +24,7 @@
             </v-card-title>
             <v-card-actions>
               <v-btn v-if="!camp.full" flat large color="green" :href="registrationLinkFor(camp.activeSessionId)" target="_blank">Register!</v-btn>
-              <v-btn v-if="camp.full" flat large color="green" href="mailto:office@slwc.ca?subject=Family%20Camp%20Registration">
+              <v-btn v-if="camp.full" flat large color="green" :href="emailContactLinkFor(camp)">
                 Contact the camp office for more info
               </v-btn>
            </v-card-actions>
@@ -40,6 +40,9 @@
     methods: {
       registrationLinkFor: function(sessionId) {
         return `https://campscui.active.com/orgs/SilverLakeWesleyanCamp#/selectSessions/${sessionId}`;
+      },
+      emailContactLinkFor: function(camp) {
+        return `mailto:office@slwc.ca?subject=${camp.title.split(' ').join('%20')}%20Registration`
       }
     },
     data () {
