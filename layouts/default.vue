@@ -31,18 +31,19 @@
         color darken(#777776, 60%)
         &:before
           content: " | "
-      &:hover
-        text-decoration underline
 
   #app-footer
     a
       color #F1F2F2
     background-color #777776
     color white
+
+  .theme--light.v-toolbar
+    background-color #b0c954
 </style>
 
 <template>
-  <v-app light>
+  <v-app>
     <v-navigation-drawer v-model="drawer" right temporary app>
       <v-list>
         <v-list-tile nuxt :to="item.to" :key="i" v-for="(item, i) in items" exact>
@@ -55,7 +56,7 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar fixed app primary id="app-header">
+    <v-toolbar dense fixed app primary id="app-header">
       <nuxt-link to="/" id="back-to-homepage">
         <img class="loon" src="~/assets/img/slwc_icon_black.png" alt="logo" />
         <img class="text-logo" src="~/assets/img/slwc_text_black.png" :alt="title" />
