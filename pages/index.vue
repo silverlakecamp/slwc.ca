@@ -1,4 +1,7 @@
 <style lang="stylus">
+  .mb-10
+    margin-bottom 10px
+
   .bg-video
     video
       object-fit cover
@@ -40,7 +43,9 @@
 
 <template>
   <div>
-    <v-img cover href="/oneday" max-height="500px" :src="require('@/assets/img/oneoffs/one-day-give-landing.jpg')"></v-img>
+    <a href="/oneday">
+      <v-img class="mb-10" cover href="/oneday" max-height="500px" :src="require('@/assets/img/oneoffs/one-day-give-landing.jpg')"></v-img>
+    </a>
 <!--     <v-responsive max-height="400px" class="bg-video" :aspect-ratio="16/9">
       <v-img
         class="overlay"
@@ -51,7 +56,7 @@
         <source :src="require('@/assets/video/index-bg.mp4')" />
       </video>
     </v-responsive> -->
-    <v-container fluid pa-0>
+    <v-container fluid pa-0 mb-10>
       <v-layout :column="$vuetify.breakpoint.smAndDown" :row="$vuetify.breakpoint.mdAndUp" wrap>
         <v-flex lg4>
           <nuxt-link to="/camps">
