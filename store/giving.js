@@ -27,6 +27,11 @@ export const state = () => ({
       title: 'Auto Debit Donation',
       description: `One of the simplest, most thoughtful and helpful means to support our camping ministry is through a regular auto debit donation. You determine the amount, the target to which you give,  and the frequency of your giving. Simply download, print, complete and sign the form. Email or mail to the listed camp address and you are done. Thank you for your generosity!`,
       form_url: '/files/auto-debit-donation-form.pdf'
+    },
+    {
+      title: 'Donate Securities',
+      description: `Canadian Tax Legislation eliminates any capital gain you may have on securities if you donate them directly to a charitable organization.  So in addition to not needing to pay capital gains, you would be issued an official donation receipt for the full value of the securities you may so donate.  If this is something of interest to you, we can confirm that through Canada Helps, you may donate securities to SLWC.  Click here to access their site and follow the instructions provided there.`,
+      static_url: 'https://www.canadahelps.org/en/dn/s/43912'
     }
   ]
 })

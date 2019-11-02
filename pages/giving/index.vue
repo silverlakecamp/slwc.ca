@@ -43,6 +43,12 @@
                       target="_new">
                       Download Auto Debit Form
                     </v-btn>
+                    <v-btn flat color="green"
+                      v-if="giving.static_url"
+                      :href="giving.static_url"
+                      target="_new">
+                      Learn More about Donating Securities
+                    </v-btn>
                   </v-card-actions>
                 </v-card>
               </v-flex>
