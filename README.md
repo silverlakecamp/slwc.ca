@@ -1,4 +1,4 @@
-# vuetify.slwc.ca
+# slwc.ca
 
 > Silver Lake Wesleyan Camp
 
