@@ -154,7 +154,7 @@
                 </nuxt-link>
               </div>
               <br>
-              <h4>Leadership</h4>
+              <!-- <h4>Leadership</h4>
               <div v-for="(camp, i) in campsForGroups(['leadership'])">
                 <nuxt-link to="/camps">
                   <div>
@@ -163,7 +163,7 @@
                   </div>
                 </nuxt-link>
               </div>
-              <br>
+              <br> -->
             </div>
           </v-flex>
           <v-flex lg7 hidden-sm-and-down>
