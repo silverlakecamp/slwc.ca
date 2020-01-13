@@ -77,17 +77,17 @@ export const state = () => ({
       activeSessionId: '2739116',
       full: false
     },
-    // {
-    //   slug: 'geezer-camp',
-    //   title: 'Geezer Camp',
-    //   dates: 'August 5 - 9',
-    //   description: `For the young at heart! Bring your funnest self!`,
-    //   for: 'age 60+',
-    //   image: require('@/assets/img/camps/geezer-camp.jpg'),
-    //   group: 'families',
-    //   activeSessionId: '2543314',
-    //   full: true
-    // },
+    {
+      slug: 'geezer-camp',
+      title: 'Geezer Camp',
+      dates: 'August 3 - 7',
+      description: `For the young at heart! Bring your funnest self!`,
+      for: 'age 60+',
+      image: require('@/assets/img/camps/geezer-camp.jpg'),
+      group: 'families',
+      activeSessionId: null,
+      full: true
+    },
     {
       slug: 'kids-camp-2',
       title: 'Kids Camp 2',
