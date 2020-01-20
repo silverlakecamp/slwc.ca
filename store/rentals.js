@@ -17,7 +17,7 @@ export const state = () => ({
         'Water',
         'Comfort Station (Washrooms, Showers)',
         'Dumping Station',
-        '15 Amp Service',
+        '15 & 30 Amp Service',
         '30\' and 32\' Trailers',
       ],
       fee_data: {
@@ -29,7 +29,7 @@ export const state = () => ({
           { text: 'Annual', align: 'left', value: 'annual', sortable: false }
         ],
         fees: [
-          { daily: 35, weekly: 200, monthly: 400, seasonal: 794, annual: 953 }
+          { daily: '35/45', weekly: '175/225', monthly: '350/450', seasonal: '891/1010', annual: '1178' }
         ]
       }
     },

@@ -71,8 +71,9 @@
           </v-alert>
           <br>
           <h2 id="group-rates">Group Rates</h2>
-          <br>
-          <p>2019 Pricing Coming Soon</p>
+          <v-btn flat large color="green" href="mailto:office@slwc.ca?subject=Group%20Rate%20Inquiry">
+            Contact the camp office for any group rate inquiries.
+          </v-btn>
           <v-alert
             :value="true"
             color="info"
@@ -89,7 +90,7 @@
             outline
             class="black--text"
           >
-            <b>Gluten/Dairy Free</b> preference meals are available upon request for an additional cost. Advanced notice is required, contact the office for more details. We are very cautious, and will consider each request, but for the safety of all involved we may have to decline a certain food request when we are not 100% certain we can accommodate (for example, Coeliac disease).
+            <b>Gluten/Dairy Free</b> preference meals are available upon request for an additional cost. Advanced notice is required, contact the office for more details. We are very cautious, and will consider each request, but for the safety of all involved we may have to decline a certain food request when we are not 100% certain we can accommodate (for example, Celiac disease).
           </v-alert>
         </v-flex>
         <v-flex md3 offset-lg1 order-xs1>
