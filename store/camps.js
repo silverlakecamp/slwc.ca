@@ -47,7 +47,7 @@ export const state = () => ({
     {
       slug: 'junior-kids-camp',
       title: 'Junior Kids Camp',
-      dates: 'July 14 - 20',
+      dates: 'July 12 - 18',
       description: `A “starter” camp for our youngest campers. For ages 7-10 this is our youngest camp of the summer. With all the fun you’d expect at camp. There will be camp fires, activities, games and all kinds of fun on the water. Junior Kids Camp is a week for our youngest campers to grow in their relationship with Jesus and meet some new friends while doing it.`,
       for: 'age 7-10',
       image: require(`@/assets/img/camps/junior-kids.jpg`),
