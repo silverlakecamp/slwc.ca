@@ -3,15 +3,14 @@ export const state = () => ({
     {
       title: 'Bikers for Christ - Rally for the Son',
       description: `Love motorcycles? This event is for you! Two days at SLWC with rides, special guest speakers, good food and more!`,
-      dates: 'TBD - 2020',
+      dates: 'June 19th - 21st, 2020',
       times: '9:00am to 5:00pm',
       image: require(`@/assets/img/events/rally-for-the-son.jpg`),
       schedule: null,
       activities: null,
       meta: [
-        'Bikers for Christ',
-        // 'International Elder',
-        // 'Joey Beldon Collins "Chief"'
+        'Pre-Register for $75 by June 5th ($35 cancellation fee)',
+        'Register On-Site for $90'
       ],
       externalContacts: [
         'Don McGlashing',
