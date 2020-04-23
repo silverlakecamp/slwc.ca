@@ -24,7 +24,7 @@
                   <p><b>Trailer sites</b> - As we understand the regulation, our trailer sites must remain closed unless the trailer is the principal residence of the individual. For that reason, under the current regulations we cannot distribute water to our trailer sites.</p>
                 </li>
                 <li>
-                  <p><b>Cottage Sites</b> - As you know, the Premier of Ontario, Doug Ford has requested that cottage owners not travel to their cottages. While we understand that this request made by the Premier is not governed by regulation, we believe it is important to respect this request. For that reason, we will be looking for direction form the various levels of Government before we plan to distribute water to our cottage owners.</p>
+                  <p><b>Cottage Sites</b> - As you know, the Premier of Ontario, Doug Ford has requested that cottage owners not travel to their cottages. While we understand that this request made by the Premier is not governed by regulation, we believe it is important to respect this request. For that reason, we will be looking for direction from the various levels of Government before we plan to distribute water to our cottage owners.</p>
                 </li>
               </ul>
             </p>
