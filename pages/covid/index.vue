@@ -1,11 +1,27 @@
 <template>
   <div>
     <v-container>
-      <h1>COVID-19 Response : April 22, 2020 Update</h1>
+      <h1>COVID-19 Response : May 4, 2020</h1>
     </v-container>
     <v-container>
       <v-layout row wrap>
         <v-flex md12>
+          <h3>May 4, 2020 Update</h3>
+          <hr>
+          <p>
+            <b>Young Adult Retreat & Collide Weekend</b> -  It is with heavy hearts that the SLWC Board has decided that due to current COVID-10 pandemic we will be cancelling Young Adult Retreat 2020 (June 5-7) and Collide Weekend 2020 (June 12-14). Though we are saddened that we cannot be together this year for these two amazing events at the lake we are hopeful and look forward to bringing them back better than ever in 2021.
+          </p>
+
+          <p>
+            <b>SLWC Annual Meeting</b> - The SLWC Annual Meeting which is traditionally help on the May long weekend has been postponed. When we are able to reschedule the date we will let you know.
+          </p>
+
+          <p>
+            <b>Sunday Services</b> - Until further notice all Sunday services at SLWC are cancelled.
+          </p>
+
+          <h3>April 22, 2020 Update</h3>
+          <hr>
           <p>
            The Camp Board is scheduled to meet every two weeks during the present pandemic. At our <b>April 18, 2020</b>, the following steps were affirmed.
           </p>
