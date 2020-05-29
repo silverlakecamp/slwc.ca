@@ -113,11 +113,15 @@
             <div class="social-media">
               <br>
               <h3>Social Media</h3>
-              <a href="//facebook.com/slwc.ca">Facebook</a>
+              <a href="https://facebook.com/slwc.ca">Facebook</a>
               <br>
-              <a href="//instagram.com/silverlakewc">Instagram</a>
+              <a href="https://instagram.com/silverlakewc">Instagram</a>
               <br>
-              <a href="//www.youtube.com/user/silverlakewc">YouTube</a>
+              <a href="https://www.twitter.com/slwc_ca">Twitter</a>
+              <br>
+              <a href="https://www.youtube.com/channel/UCadYSQrkHIxECxNjoXfRv3g">YouTube</a>
+              <br>
+              <a href="https://www.vimeo.com/silverlake">Vimeo</a>
             </div>
           </v-flex>
           <v-flex lg3>
