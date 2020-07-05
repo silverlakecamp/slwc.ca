@@ -18,7 +18,6 @@
             :headers="headers"
             :items="camps"
             class="elevation-1"
-            total-items=7
             hide-actions
           >
             <template v-slot:items="props">
@@ -26,13 +25,13 @@
                 {{ props.item.day }}
               </td>
               <td>
-                <v-btn flat large color="green" :href="emailRegistrationLinkFor('Day Camp', props.item.day)">
+                <v-btn large color="green" :href="emailRegistrationLinkFor('Day Camp', props.item.day)">
                   Email to Register
                 </v-btn>
               </td>
               <td>{{ props.item.weekend }}</td>
               <td>
-                <v-btn v-if="props.item.available" flat large color="green" :href="emailRegistrationLinkFor('Weekend Camp', props.item.weekend)">
+                <v-btn v-if="props.item.available" large color="green" :href="emailRegistrationLinkFor('Weekend Camp', props.item.weekend)">
                   Email to Register
                 </v-btn>
                 <b v-if="!props.item.available">
@@ -140,14 +139,14 @@
             value: 'day'
           },
           {
-            text: 'Register'
+            text: 'Registration'
           },
           {
             text: 'Weekend Camp Dates',
             value: 'weekend'
           },
           {
-            text: 'Register'
+            text: 'Registration'
           }
         ],
         camps: [
@@ -155,7 +154,7 @@
           { day: 'July 14-16', weekend: 'July 18-19', available: false},
           { day: 'July 21-23', weekend: 'July 25-36', available: true},
           { day: 'July 28-30', weekend: 'August 1-2', available: true},
-          { day: 'August 4-6', weekend: 'August 8-9', available: false},
+          { day: 'August 4-6', weekend: 'August 8-9', available: true},
           { day: 'August 11-13', weekend: 'August 15-16', available: true},
           { day: 'August 18-20', weekend: 'CLOSED', available: false},
         ]
