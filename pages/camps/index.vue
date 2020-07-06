@@ -19,6 +19,7 @@
             :items="camps"
             class="elevation-1"
             hide-actions
+            disable-initial-sort
           >
             <template v-slot:items="props">
               <td>
@@ -136,17 +137,21 @@
         headers: [
           {
             text: 'Day Camp Dates',
-            value: 'day'
+            value: 'day',
+            sortable: false
           },
           {
-            text: 'Registration'
+            text: 'Registration',
+            sortable: false
           },
           {
             text: 'Weekend Camp Dates',
-            value: 'weekend'
+            value: 'weekend',
+            sortable: false
           },
           {
-            text: 'Registration'
+            text: 'Registration',
+            sortable: false
           }
         ],
         camps: [
