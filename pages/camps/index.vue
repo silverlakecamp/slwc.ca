@@ -25,13 +25,13 @@
                 {{ props.item.day }}
               </td>
               <td>
-                <v-btn large color="green" :href="emailRegistrationLinkFor('Day Camp', props.item.day)">
+                <v-btn large flat color="green" :href="emailRegistrationLinkFor('Day Camp', props.item.day)">
                   Email to Register
                 </v-btn>
               </td>
               <td>{{ props.item.weekend }}</td>
               <td>
-                <v-btn v-if="props.item.available" large color="green" :href="emailRegistrationLinkFor('Weekend Camp', props.item.weekend)">
+                <v-btn v-if="props.item.available" large flat color="green" :href="emailRegistrationLinkFor('Weekend Camp', props.item.weekend)">
                   Email to Register
                 </v-btn>
                 <b v-if="!props.item.available">
