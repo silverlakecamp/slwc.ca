@@ -46,7 +46,10 @@
 <!--     <a href="https://www.eventbrite.ca/e/family-day-2020-tickets-85106282181" target="_blank">
       <v-img class="mb-10" href="https://www.eventbrite.ca/e/family-day-2020-tickets-85106282181" :src="require('@/assets/img/events/family-day-2020.jpg')"></v-img>
     </a> -->
-    <v-responsive max-height="400px" class="bg-video" :aspect-ratio="16/9">
+    <a href="/oneday">
+      <v-img class="mb-10" cover href="/oneday" :src="require('@/assets/img/oneoffs/one-day-give-landing-2020.jpg')"></v-img>
+    </a>
+    <!-- <v-responsive max-height="400px" class="bg-video" :aspect-ratio="16/9">
       <v-img
         class="overlay"
         contain
@@ -55,7 +58,7 @@
       <video loop autoplay muted>
         <source :src="require('@/assets/video/index-bg.mp4')" />
       </video>
-    </v-responsive>
+    </v-responsive> -->
     <v-container fluid pa-0 mb-10>
       <v-layout :column="$vuetify.breakpoint.smAndDown" :row="$vuetify.breakpoint.mdAndUp" wrap>
         <v-flex lg4>
