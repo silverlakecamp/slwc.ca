@@ -158,8 +158,8 @@
           { day: 'July 7-9', weekend: 'July 11-12', available: true},
           { day: 'July 14-16', weekend: 'July 18-19', available: false},
           { day: 'July 21-23', weekend: 'July 25-36', available: true},
-          { day: 'July 28-30', weekend: 'August 1-2', available: true},
-          { day: 'August 4-6', weekend: 'August 8-9', available: true},
+          { day: 'July 28-30', weekend: 'August 1-2', available: false},
+          { day: 'August 4-6', weekend: 'August 8-9', available: false},
           { day: 'August 11-13', weekend: 'August 15-16', available: true},
           { day: 'August 18-20', weekend: 'CLOSED', available: false},
         ]
