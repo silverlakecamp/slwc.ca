@@ -1,6 +1,11 @@
 export const state = () => ({
   giving: [
     {
+      title: 'Giving Tuesday',
+      description: `Giving Tuesday started in 2012 when the 92nd Street YMCA in New York City and the United Nations Foundation joined together in search of a way to harness the spirit of giving that comes with the end of year holiday season and channel that toward support for non-profit organizations. Many non-profits take this opportunity to allow their supporters to kick off the holiday season with a gift to an organization that they care about. Giving Tuesday takes place the Tuesday after Black Friday. This year that falls on December 1. We are excited to share that 100% of the funds raised during this year’s Giving Tuesday at SLWC will go towards the ongoing renovation of our Camp Centre.`,
+      paypal_form_id: 'AUGJFDSRN8CMN'
+    },
+    {
       title: 'General Operations',
       description: `At SLWC we try very hard to manage our income streams so that we have the funds necessary to maintain the property, buildings, equipment and infrastructure and to pay the salary of the staff who direct the ministry. Our main income streams are Camper Registration, Retreat and Rental Bookings, Leaseholder Fees and Donations. Approximately 30% of our total income depends on generous people like you...thank you for giving!
       `,
