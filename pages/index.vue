@@ -65,7 +65,7 @@
           <nuxt-link to="/camps">
             <v-card class="image-overlay" flat tile hover raised>
               <h2 class="image-overlay-text">
-                <span>Day Camps</span>
+                <span>Camps</span>
               </h2>
               <v-img cover :src="require('@/assets/img/features/2020/1.jpg')" :height="$vuetify.breakpoint.smAndDown ? '250px' : '500px'"></v-img>
             </v-card>
