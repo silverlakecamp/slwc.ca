@@ -3,7 +3,7 @@ export const state = () => ({
     {
       title: 'Bikers for Christ - Rally for the Son',
       description: `Love motorcycles? This event is for you! Two days at SLWC with rides, special guest speakers, good food and more!`,
-      dates: 'June 18 - 20, 2020',
+      dates: 'June 18 - 20',
       times: '9:00am to 5:00pm',
       image: require(`@/assets/img/events/rally-for-the-son.jpg`),
       schedule: null,

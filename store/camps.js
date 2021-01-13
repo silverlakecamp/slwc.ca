@@ -28,7 +28,7 @@ export const state = () => ({
       for: 'all ages',
       image: require(`@/assets/img/camps/family-camp.jpg`),
       group: 'families',
-      full: false
+      full: true
     },
     {
       slug: 'junior-kids-camp',
@@ -68,7 +68,7 @@ export const state = () => ({
       for: 'age 60+',
       image: require('@/assets/img/camps/geezer-camp.jpg'),
       group: 'families',
-      full: false
+      full: true
     },
     {
       slug: 'kids-camp-2',
