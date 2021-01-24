@@ -10,7 +10,9 @@
     <v-container>
       <h1><span v-text="currentYear" /> Camps</h1>
 
-      <p>SLWC is still finalizing plans for the 2021 Camping Season. With all of the uncertainty around COVID-19, vaccines, and government direction we are still not sure what camps and services we will be able to offer this year.
+      <p>SLWC is still finalizing plans for the 2021 Camping Season. With all of the uncertainty around COVID-19, vaccines, and government direction we are still not sure what camps and services we will be able to offer this year.</p>
+
+      <p>Below you will find our current 2021 Camp Schedule. Please note that all of these camps are subject to change as we continue to follow current Ontario COVID-19 guidelines for camps and retreats. Registration are OPEN for all our 2021 camps at this time. Be assured that any fees paid for camps are 100% refundable if those camps are not able to run.
       </p>
 
       <p>Please stay tuned for more information coming soon on this page with details as we find out more.</p>
