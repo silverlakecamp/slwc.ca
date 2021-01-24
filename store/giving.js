@@ -3,30 +3,30 @@ export const state = () => ({
     {
       title: 'Giving Tuesday',
       description: `Giving Tuesday started in 2012 when the 92nd Street YMCA in New York City and the United Nations Foundation joined together in search of a way to harness the spirit of giving that comes with the end of year holiday season and channel that toward support for non-profit organizations. Many non-profits take this opportunity to allow their supporters to kick off the holiday season with a gift to an organization that they care about. Giving Tuesday takes place the Tuesday after Black Friday. This year that falls on December 1. We are excited to share that 100% of the funds raised during this year’s Giving Tuesday at SLWC will go towards the ongoing renovation of our Camp Centre.`,
-      paypal_form_id: 'AUGJFDSRN8CMN'
+      external_payment_url: 'https://slwc.campbraingiving.com'
     },
     {
       title: 'General Operations',
       description: `At SLWC we try very hard to manage our income streams so that we have the funds necessary to maintain the property, buildings, equipment and infrastructure and to pay the salary of the staff who direct the ministry. Our main income streams are Camper Registration, Retreat and Rental Bookings, Leaseholder Fees and Donations. Approximately 30% of our total income depends on generous people like you...thank you for giving!
       `,
-      paypal_form_id: '2HLDPEAVNQDGC'
+      external_payment_url: 'https://slwc.campbraingiving.com'
     },
     {
       title: 'Camper Sponsorship',
       description: `Our passion is to make camping an accessible experience for every child. Some families cannot pay the regis- tration fee, especially if there are several children in the family. Your donation of all (tuition costs between $340-395 typically) or a portion of a camper's registration will make all the difference for some deserving camper.
       `,
-      paypal_form_id: 'NFHP9ZKUDW54W'
+      external_payment_url: 'https://slwc.campbraingiving.com'
     },
     {
       title: 'Staff Sponsorship',
       description: `It takes a lot of passionate and energetic staff to minister at camp each summer. Counsellors, activities leaders, office staff, life guards, etc. who give many hours of dedicated time with little pay. We provide a weekly stipend plus room and board and challenge them to raise additional support. Your contribution helps us honour their ministry efforts in the fulfillment of our mission to reach the lost and teach the found. Thank-you for your thoughtful generosity.
       `,
-      paypal_form_id: 'XPT3XHPGQASGY'
+      external_payment_url: 'https://slwc.campbraingiving.com'
     },
     {
       title: 'Re•new•all Capital Campaign',
       description: `Re•new•all is our capital campaign that will 'renew' and enhance the major facilities, and ultimately the ministry, over a multi-phase plan in the years to come.`,
-      paypal_form_id: 'M8FAFYDG8ESLN'
+      external_payment_url: 'https://slwc.campbraingiving.com'
     },
     {
       title: 'Auto Debit Donation',

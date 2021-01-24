@@ -26,17 +26,13 @@
                     <p v-html="giving.description" />
                   </v-card-text>
                   <v-card-actions>
-                    <form v-if="giving.paypal_form_id"
-                        action="https://www.paypal.com/cgi-bin/webscr"
-                        method="post"
-                        target="_blank"
-                    >
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" :value="giving.paypal_form_id">
-                      <v-btn type="submit" flat color="green">
-                        Donate to&nbsp;<span v-text="giving.title" />
-                      </v-btn>
-                    </form>
+                    <v-btn flat color="green"
+                      v-if="giving.external_payment_url"
+                      :href="giving.external_payment_url"
+                      target="_new"
+                      >
+                      Donate to&nbsp;<span v-text="giving.title" />
+                    </v-btn>
                     <v-btn flat color="green"
                       v-if="giving.form_url"
                       :href="giving.form_url"
