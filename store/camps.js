@@ -14,7 +14,7 @@ export const state = () => ({
       slug: 'collide-weekend',
       title: 'Collide Weekend',
       dates: 'June 11 - June 13',
-      description: `A great event for Middle & High School students to "Collide" together and celebrate Christ working in their day to day lives. Along with a group of your peers you’ll be inspired and encourage to grow in your walk with Jesus while having fun and enjoying the beauty of Silver Lake. A great way to end the school year and get a jump on summer.`,
+      description: `A great event for Middle & High School students to "Collide" together and celebrate Christ working in their day to day lives. Along with a group of your peers you’ll be inspired and encouraged to grow in your walk with Jesus while having fun and enjoying the beauty of Silver Lake. A great way to end the school year and get a jump on summer.`,
       for: 'grade 6-12',
       image: require(`@/assets/img/camps/collide-weekend.jpg`),
       group: 'youth',

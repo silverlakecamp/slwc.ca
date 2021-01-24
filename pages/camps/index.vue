@@ -17,28 +17,7 @@
 
       <p>Please stay tuned for more information coming soon on this page with details as we find out more.</p>
 
-    </v-container>
-    <v-container grid-list-xl>
-      <v-layout row wrap justify-space-between>
-        <v-flex v-for="(camp, i) in camps" :key="i">
-          <v-card>
-            <v-img height="200px" :src="camp.image" />
-            <v-card-title primary-title>
-              <div :id="camp.slug">
-                <h3 class="headline mb-0" v-text="camp.title" />
-                <span class="grey--text" v-text="camp.dates" />
-                <div v-text="camp.description" />
-              </div>
-            </v-card-title>
-            <v-card-actions>
-              <v-btn v-if="!camp.full" flat large color="green" :href="registrationLinkFor(camp)" target="_blank">Register!</v-btn>
-              <v-btn v-if="camp.full" flat large color="green" :href="emailContactLinkFor(camp)">
-                Contact the camp office for more info
-              </v-btn>
-           </v-card-actions>
-          </v-card>
-        </v-flex>
-      </v-layout>
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shr2HJ3HUJx6PB35b?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="620" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </v-container>
   </div>
 </template>
