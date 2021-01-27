@@ -17,7 +17,7 @@
 
       <p>Please stay tuned for more information coming soon on this page with details as we find out more.</p>
 
-      <iframe class="airtable-embed" src="https://airtable.com/embed/shr2HJ3HUJx6PB35b?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="620" style="background: transparent; border: 1px solid #ccc;"></iframe>
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shr2HJ3HUJx6PB35b?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="1210" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </v-container>
   </div>
 </template>

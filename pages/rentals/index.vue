@@ -8,53 +8,11 @@
         <v-flex md8>
           <p>Our facility is very suited for personal and group retreats and gatherings. Churches, youth groups, leadership teams, families and other groups are welcome to rent the facility based on availability.</p>
           <h2 id="accomodations">Accomodations</h2>
-          <v-container grid-list-xl>
-            <v-layout column wrap>
-              <v-flex v-for="(rental, i) in rentals" :key="i">
-                <v-card>
-                  <v-card-title primary-title>
-                    <h3 class="headline mb-0">
-                      <span v-text="rental.title" />
-                      <span class="grey--text">
-                        (<span v-text="availabilityFor(rental.count)" />)
-                      </span>
-                    </h3>
-                  </v-card-title>
-                  <v-carousel :cycle="false" v-if="rental.images" height="300px" hide-delimiters>
-                    <v-carousel-item
-                      v-for="(item,i) in rental.images"
-                      :key="i"
-                      :src="item.src"
-                    ></v-carousel-item>
-                  </v-carousel>
-                  <v-card-text>
-                    <p v-text="rental.description" />
-                    <h4>Amenities</h4>
-                    <ul>
-                      <li v-for="(amenity, i) in rental.amenities" :key="i">
-                        <span v-text="amenity" />
-                      </li>
-                    </ul>
-                    <br>
-                    <h4 v-if="rental.fee_data">Fees</h4>
-                    <v-data-table
-                      v-if="rental.fee_data"
-                      :headers="rental.fee_data.headers"
-                      :items="rental.fee_data.fees"
-                      hide-actions
-                    >
-                      <template slot="items" slot-scope="props">
-                        <td>${{props.item.daily}}</td>
-                        <td>${{props.item.weekly}}</td>
-                        <td>${{props.item.monthly}}</td>
-                        <td>${{props.item.seasonal}}</td>
-                        <td>${{props.item.annual}}</td>
-                      </template>
-                    </v-data-table>
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-            </v-layout>
+          <v-container>
+            <p>SLWC is still finalizing plans for the 2021 Camping Season. With all of the uncertainty around COVID-19, vaccines, and government direction we are still not sure what camps and services we will be able to offer this year.</p>
+
+            <p>Please stay tuned for more information coming soon on the <a href="/camps">camps page</a> with details as we find out more.</p>
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shrtq3SZyPOkXER68?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="1010" style="background: transparent; border: 1px solid #ccc;"></iframe>
           </v-container>
           <br>
           <h2 id="rates">Meals & Lodging Rates</h2>
