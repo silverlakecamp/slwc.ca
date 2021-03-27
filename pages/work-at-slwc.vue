@@ -8,7 +8,7 @@
         <v-flex md12>
           <p>Love Jesus? Love Camp? Love People? Work Hard? Well then come spend your summer with us! We are looking for energized hard working individuals to fill a variety of roles on our Summer Ministry Team.</p>
 
-          <p>The Ministry Team at SLWC is the key to fulfilling our mission and purpose...we must have the right people, in the right place, doing the right thing at the right time. Perhaps you are one of those people; we would love to hear from you.</p>
+          <p>The Ministry Team at SLWC is vital to fulfilling our mission and purpose...we must have the right people, in the right place, doing the right thing at the right time. Perhaps you are one of those people; we would love to hear from you.</p>
 
           <h2>Summer Ministry Team</h2>
 
