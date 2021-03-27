@@ -13,7 +13,7 @@
           </p>
 
           <p>
-            <b>SLWC Annual Meeting</b> - The SLWC Annual Meeting which is traditionally help on the May long weekend has been postponed. When we are able to reschedule the date we will let you know.
+            <b>SLWC Annual Meeting</b> - The SLWC Annual Meeting which is traditionally held on the May long weekend has been postponed. When we are able to reschedule the date we will let you know.
           </p>
 
           <p>
