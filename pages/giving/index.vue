@@ -24,6 +24,9 @@
                   </v-card-title>
                   <v-card-text>
                     <p v-html="giving.description" />
+                    <p v-if="giving.external_site">
+                      Find out more at <a :href="giving.external_site" v-text="giving.external_site"/>
+                    </p>
                   </v-card-text>
                   <v-card-actions>
                     <v-btn flat color="green"

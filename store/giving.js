@@ -6,6 +6,12 @@ export const state = () => ({
     //   external_payment_url: 'https://slwc.campbraingiving.com'
     // },
     {
+      title: 'Camp Unlimited',
+      description: `Camp Unlimited reaches beyond the boundaries of Silver Lake Wesleyan Camp to offer kids, youth and their families an interactive, engaging and enjoyable camp experience in their community.`,
+      external_site: 'https://campunlimited.ca',
+      external_payment_url: 'https://slwc.campbraingiving.com'
+    },
+    {
       title: 'General Operations',
       description: `At SLWC we try very hard to manage our income streams so that we have the funds necessary to maintain the property, buildings, equipment and infrastructure and to pay the salary of the staff who direct the ministry. Our main income streams are Camper Registration, Retreat and Rental Bookings, Leaseholder Fees and Donations. Approximately 30% of our total income depends on generous people like you...thank you for giving!
       `,
