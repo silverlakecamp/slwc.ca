@@ -10,12 +10,12 @@
     <v-container>
       <h1><span v-text="currentYear" /> Camps</h1>
 
-      <p>SLWC is still finalizing plans for the 2021 Camping Season. With all of the uncertainty around COVID-19, vaccines, and government direction we are still not sure what camps and services we will be able to offer this year.</p>
+      <p>Registration is currently OPEN for all our summer camps. We are grateful that Ontario will be opening overnight camps this summer.</p>
 
-      <p>Below you will find our current 2021 Camp Schedule. Please note that all of these camps are subject to change as we continue to follow current Ontario COVID-19 guidelines for camps and retreats. Registration is OPEN for all our 2021 camps at this time. Be assured that any fees paid for camps are 100% refundable if those camps are not able to run.
+      <p>We have added a new option to all of our kids camps as well as Family Camp. Due to the popularity of our Day Camps last summer we are delighted to offer those as an option for all of our kids camps (Family Camp, Jr. Kids, Kids I & II and Sports). You can register for these or any of our camps by clicking on the buttons below..
       </p>
 
-      <p>Please stay tuned for more information coming soon on this page with details as we find out more.</p>
+      <p>Please find below the list of all our 2021 Camps.</p>
 
       <iframe class="airtable-embed" src="https://airtable.com/embed/shr2HJ3HUJx6PB35b?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="1210" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </v-container>
