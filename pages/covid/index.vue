@@ -1,12 +1,12 @@
 <template>
   <div>
     <v-container>
-      <h1>COVID-19 Response : June 3, 2021</h1>
+      <h1>COVID-19 Response : 2021</h1>
     </v-container>
     <v-container>
       <v-layout row wrap>
         <v-flex md12>
-          <h3>May 4, 2020 Update</h3>
+          <h3>June 3, 2020 Update</h3>
           <hr>
           <p>
             <b>As you know, the Provincial authorities recently announced that overnight and days camps would be permitted to run during the summer of 2021 in Ontario.  Given that announcement, we have opened registration for all of our overnight and day camps at slwc.ca/camps We are excited about what the summer will hold for us.
