@@ -9,7 +9,7 @@
           <h3>June 3, 2020 Update</h3>
           <hr>
           <p>
-            <p>As you know, the Provincial authorities recently announced that overnight and days camps would be permitted to run during the summer of 2021 in Ontario.  Given that announcement, we have opened registration for all of our overnight and day camps at slwc.ca/camps We are excited about what the summer will hold for us.
+            <p>As you know, the Provincial authorities recently announced that overnight and days camps would be permitted to run during the summer of 2021 in Ontario.  Given that announcement, we have opened registration for all of our overnight and day camps. We are excited about what the summer will hold for us.
 
 
 
