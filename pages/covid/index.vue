@@ -6,18 +6,16 @@
     <v-container>
       <v-layout row wrap>
         <v-flex md12>
-          <h3>June 3, 2021 Update</h3>
+          <h3>June 25, 2021 Update</h3>
           <hr>
           <p>
-            <p>As you know, the Provincial authorities recently announced that overnight and day camps would be permitted to run during the summer of 2021 in Ontario.  Given that announcement, we have opened registration for all of our overnight and day camps. We are excited about what the summer will hold for us.
+            <p>We are excited to report that based on the Province of Ontario guidelines, we are able to open both for day and overnight camps for the upcoming summer of 2021.  We have submitted our COVID-19 Safety Plan to the Leeds, Grenville and Lanark District Health Unit, and this past week, they completed their inspection of our camp.  We passed and so we have the go-ahead to open for the summer.
 
+Furthermore, based on the COVID-19 protocols we plan to put in place, we believe that similar to last year, we can run our summer camps COVID-19 free.  Looking forward to reconnecting with many of our friends.
 
+Should you wish to have a copy of our COVID-19 Safety Plan, please email the office at office@slwc.ca
 
-COVID-19 Protocols - During the summer of 2020, we ran 14 day camps during which we executed a number of COVID-19 protocols.  We are happy to report that we hosted over 300 campers and their families, and that we were able to do so without a single COVID-19 incident at the camp.  For the upcoming summer of 2021, the Province has issued us preliminary guidelines to follow applicable to COVID-19.  We will work with the Provincial Health authorities to gain the approval of our COVID-19 protocols in the coming days.  Once the Province has signed off on our plan, we will make details of the plan public.
-
-
-
-Looking forward to reconnecting with our camper and guest communities in the coming months.
+The Management of SLWC
 
 
           
