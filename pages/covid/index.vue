@@ -15,7 +15,7 @@ Furthermore, based on the COVID-19 protocols we plan to put in place, we believe
 
 Should you wish to have a copy of our COVID-19 Safety Plan, please email the office at office@slwc.ca
 
-The Management of SLWC
+
 
 
           
