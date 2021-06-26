@@ -46,9 +46,9 @@
 <!--     <a href="https://www.eventbrite.ca/e/family-day-2020-tickets-85106282181" target="_blank">
       <v-img class="mb-10" href="https://www.eventbrite.ca/e/family-day-2020-tickets-85106282181" :src="require('@/assets/img/events/family-day-2020.jpg')"></v-img>
     </a> -->
-<!--     <a href="/oneday">
-      <v-img class="mb-10" cover href="/oneday" :src="require('@/assets/img/oneoffs/one-day-give-landing-2020.jpg')"></v-img>
-    </a> -->
+    <a href="/oneday">
+      <v-img class="mb-10" cover href="/oneday" :src="require('@/assets/img/oneoffs/one-day-give-landing-2021.jpg')"></v-img>
+    </a>
     <v-responsive max-height="400px" class="bg-video mb-10" :aspect-ratio="16/9">
       <v-img
         class="overlay"

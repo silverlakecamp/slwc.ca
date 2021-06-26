@@ -1,40 +1,36 @@
 <template>
   <div>
-    <v-img cover :src="require('@/assets/img/oneoffs/one-day-give-landing-2020.jpg')"></v-img>
+    <v-img cover :src="require('@/assets/img/oneoffs/one-day-give-landing-2021.jpg')"></v-img>
     <v-container>
-      <h1>One Day Give : Thursday, July 23, 2020</h1>
+      <h1>One Day Give : 2021</h1>
     </v-container>
     <v-container>
       <v-layout row wrap>
-        <p>With our overnight camps closed and our summer rentals all cancelled it’s been a huge surprise to see that our giving hasn’t dropped off. In fact, some weeks our giving has actually gone up from last year at the same time. It is through this generosity and the financial assistance we’ve received from the Federal Government that we are in a position to even attempt to hold Day Camps this summer. We continue to be blown away by our amazing donors who support this place and our mission of sharing the love of Jesus with as many as possible through camp ministry.</p>
+        <p>ONE DAY GIVE is an opportunity for us all to support the ministry of Silver Lake Wesleyan Camp. With the return or overnight camps this season the value of camp ministry becomes even more evident. ONE DAY GIVE started out as the offering day of our SLWC Family Camp. Rather than take up an offering in each of our services during the week of Family Camp we decided to take up one offering on the Thursday of our Family Camp week.</p>
 
-        <p>It is with grateful hearts for all our donors and with an eye to a future and dreams of future summers where overnight camps are permitted that we turn our attention to <strong>ONE DAY GIVE 2020</strong>. Our ONE DAY GIVE was started last summer during Family Camp as a way to raise, much needed, funds to improve SLWC’s infrastructure and facilities. Our goal was to take our Family Camp offerings and move them outside of the camp to include people who want to support us but aren’t here. We did this by promoting ONE DAY GIVE on our social media accounts, website and through email. It was wonderful to see donations come in from all over the country and around North America. Silver Lake’s influence reaches far and wide as people who have experienced the love of Jesus here at camp have gone on to influence others all over the world.</p>
+        <p>The secondary goal of ONE DAY GIVE was to provide a chance for those not able to attend Family Camp in person to get behind and support SLWC financially. This took on a whole new meaning last summer when we moved ONE DAY GIVE fully online. Our first ONE DAY GIVE in 2019 set a record for Silver Lake as we received more donations in that single day than had been received in any full week in SLWC’s history. And last year in the midst of this global pandemic we topped the 2019 total and set a new giving record.</p>
 
         <p>
-          Last year we had our largest single day amount raised at a little over $42,000. We have a few projects in mind for that money and are excited to announce that we were able to start them all. Our camp docks are nearly complete with 4 of the 6 slips ready for use. The roof on the Beachside Cottage (home of our Executive Director) was put on in the fall last year and is functioning very well. We were able to order new commercial camp laundry machines and they will arrive and be installed in the next few weeks. We are so grateful to all who donated to ONE DAY GIVE last summer as to allow these new improvements to happen; they will all help to make this place better and continue to allow us to share the love of Jesus with as many as possible through camp ministry.
+          Through the generosity of the people who support SLWC through ONE DAY GIVE and throughout the year we have been able to see some amazing improvements to our infrastructure and facilities at the lake. It was through ONE DAY GIVE that we were able to support the build of our new camp docks, add a commercial washer & dryer to our laundry room, repair the roof of our Beachside cottage and many more projects around the campgrounds. All these changes and improvements will continue to allow us to share the love of Jesus with as many as possible through camp ministry for many years to come.
         </p>
 
         <p>
-          This brings us to our ONE DAY GIVE 2020. We don’t have a dollar amount goal in mind but we would love to see us match or exceed last year’s amount. With the pandemic having an effect on the economy and many facing financial hardships as a result we understand that this may effect our ONE DAY GIVE as well. We also believe that God continues to have a plan for this place. We believe that God is NOT done with Silver Lake and is just getting started in how He wants to share the love of Jesus through us. It is with that in mind that we would ask you to consider what you are able to donate to Silver Lake Wesleyan Camp during our ONE DAY GIVE 2020 on <strong>Thursday July 23, 2020</strong>.
+          This summer we once again don’t want to set a “goal” for our ONE DAY GIVE. We simply know we want to do more. We have many hopes and dreams for this place. For the projects and improvements, we’d like to make “One Day”. ONE DAY GIVE is our chance to see some of these improvements realized. We will be sharing more about the improvements we’ve made at SLWC over the last few years because of ONE DAY GIVE and also, we’ll share our dreams of things we’d like to see happen in the future on our social media channels over the coming weeks so make sure to like and subscribe to all our channels..
         </p>
 
         <p>
-          Since we aren’t able to meet in person ONE DAY GIVE 2020 will take place completely online. We will be sharing from now until that day "Silver Lake to Me" stories of individuals and families who’s lives have been changed by God through this place. We will be holding a virtual service on the evening of July 23 with worship, a speaker, some fun surprises and a chance to chat together in the comments as we are together while we continue to be apart. You’ll hear more about our service plans as we come closer to the date, but for now mark your calendar for Thursday July 23rd at 7PM to join us on Facebook and YouTube LIVE, and follow us on our social accounts for our "Silver Lake to Me" stories.
+          ONE DAY GIVE is our chance to get behind the vision of SLWC. Which is to share the love of Jesus with as many as possible through camp ministry. So, we ask that you give generously. Every dollar helps because every camper matters. Everything we do because of the generosity shown during our ONE DAY GIVE helps us pursue our vision. So please give generously. Give so that “One Day” can be sooner than we thought.
         </p>
 
         <p>
           You can give anytime to Silver Lake at <nuxt-link to="/give">slwc.ca/give</nuxt-link>. If you’d like your donation to go towards ONE DAY GIVE, you can use the button below:
         </p>
 
-        <form action="https://www.paypal.com/cgi-bin/webscr"
-              method="post"
-              target="_blank">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="2HLDPEAVNQDGC">
-          <v-btn type="submit" color="success" large>
-            Give Generously
-          </v-btn>
-        </form>
+        <v-btn color="green"
+          href="https://slwc.campbraingiving.com"
+          target="_new">
+          Give Generously
+        </v-btn>
       </v-layout>
     </v-container>
   </div>
