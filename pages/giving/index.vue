@@ -1,12 +1,15 @@
 <template>
   <div>
-    <v-carousel height="500px" hide-delimiters>
+    <a href="/oneday">
+      <v-img class="mb-10" cover href="/oneday" :src="require('@/assets/img/oneoffs/one-day-give-landing-2021.jpg')"></v-img>
+    </a>
+    <!-- <v-carousel height="500px" hide-delimiters>
       <v-carousel-item
         v-for="(item,i) in carousel_items"
         :key="i"
         :src="item.src"
       ></v-carousel-item>
-    </v-carousel>
+    </v-carousel> -->
     <v-container>
       <h1>Donate</h1>
     </v-container>

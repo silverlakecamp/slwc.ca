@@ -6,6 +6,11 @@ export const state = () => ({
     //   external_payment_url: 'https://slwc.campbraingiving.com'
     // },
     {
+      title: 'One Day Give 2021',
+      description: `ONE DAY GIVE is our chance to get behind the vision of SLWC. Which is to share the love of Jesus with as many as possible through camp ministry. So, we ask that you give generously. Every dollar helps because every camper matters. Everything we do because of the generosity shown during our ONE DAY GIVE helps us pursue our vision. So please give generously. Give so that “One Day” can be sooner than we thought.`,
+      external_payment_url: 'https://slwc.campbraingiving.com'
+    },
+    {
       title: 'General Operations',
       description: `At SLWC we try very hard to manage our income streams so that we have the funds necessary to maintain the property, buildings, equipment and infrastructure and to pay the salary of the staff who direct the ministry. Our main income streams are Camper Registration, Retreat and Rental Bookings, Leaseholder Fees and Donations. Approximately 30% of our total income depends on generous people like you...thank you for giving!
       `,
