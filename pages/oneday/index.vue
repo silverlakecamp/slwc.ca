@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-img cover :src="require('@/assets/img/oneoffs/one-day-give-landing-2021.jpg')"></v-img>
+    <!-- <v-img cover :src="require('@/assets/img/oneoffs/one-day-give-landing-2021.jpg')"></v-img> -->
     <v-container>
-      <h1>One Day Give : 2021</h1>
+      <h1>One Day Give</h1>
     </v-container>
     <v-container>
       <v-layout row wrap>
