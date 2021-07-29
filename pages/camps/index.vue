@@ -15,7 +15,7 @@
       <p>We have added a new option to all of our kids camps as well as Family Camp. Due to the popularity of our Day Camps last summer we are delighted to offer those as an option for all of our kids camps (Family Camp, Jr. Kids, Kids I & II and Sports). You can register for these or any of our camps by clicking on the buttons below..
       </p>
 
-      <p>Please find below the list of all our 2021 Camps.</p>
+      <p><strong>Wondering what to pack for camp?</strong> Check out our <a href="/packing">Camp Packing Lists</a> for Day Camps and Overnight Camps.</p>
 
       <iframe class="airtable-embed" src="https://airtable.com/embed/shr2HJ3HUJx6PB35b?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="1210" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </v-container>

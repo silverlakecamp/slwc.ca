@@ -8,7 +8,7 @@
         <v-flex md12>
           <h2>Overnight Camps</h2>
           <p>The following list is for campers who are staying overnight. Camps typically run from Sunday at 4pm to the following Saturday at 10am.</p>
-          <iframe class="airtable-embed" src="https://airtable.com/embed/shrPDJcrGdMhyk4Dl?backgroundColor=yellow" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+          <iframe class="airtable-embed" src="https://airtable.com/embed/shrPDJcrGdMhyk4Dl?backgroundColor=yellow" frameborder="0" onmousewheel="" width="100%" height="510" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
           <br>
           <br>
