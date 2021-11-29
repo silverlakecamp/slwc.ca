@@ -75,7 +75,7 @@
 
       <h2>What is the cost of DAY CAMP?</h2>
 
-      <p>Cost per day is $25 and you must register for the entire 3-day or 2-day session.</p>
+      <p>Cost per day is $35 and you must register for the entire 3-day or 2-day session.</p>
 
 
       <h2>Who will attend DAY CAMP?</h2>
