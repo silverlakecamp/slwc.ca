@@ -17,7 +17,13 @@ Vue.mixin({
   data: function() {
     return {
       get currentYear() {
-        return new Date().getFullYear();
+        let d = new Date()
+        // if we're in december, flip the currentYear to the next year for golive
+        if(d.getMonth() == 11) {
+          return d.getFullYear() + 1;
+        } else {
+          return d.getFullYear();
+        }
       }
     }
   }
