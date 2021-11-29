@@ -10,7 +10,7 @@
     <v-container>
       <h1><span v-text="currentYear" /> Events</h1>
 
-      <p>SLWC is still finalizing plans for the 2021 Camping Season. With all of the uncertainty around COVID-19, vaccines, and government direction we are still not sure what events we will be able to host this year.</p>
+      <p>SLWC is still finalizing plans for the 2022 Camping Season. With all of the uncertainty around COVID-19, vaccines, and government direction we are still not sure what events we will be able to host this year.</p>
 
       <p>Please stay tuned for more information coming soon on the <a href="/camps">camps page</a> with details as we find out more.</p>
 
