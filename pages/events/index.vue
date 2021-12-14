@@ -12,7 +12,7 @@
 
       <p>SLWC is still finalizing plans for the 2022 Event Season. With all of the uncertainty around COVID-19, vaccines, and government direction we are still not sure what events we will be able to host this year.
 
-Check this page for all event information. It will be updated as we find out more information about our 2022 SLWC events./p>
+Check this page for all event information. It will be updated as we find out more information about our 2022 SLWC events.
 
       <p>Please stay tuned for more information coming soon on the <a href="/camps">camps page</a> with details as we find out more.</p>
 
