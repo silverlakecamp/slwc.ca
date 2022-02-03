@@ -10,9 +10,9 @@
     <v-container>
       <h1><span v-text="currentYear" /> Camps</h1>
 
-      <p>Registration is currently OPEN for all our summer camps. We are grateful that Ontario will be opening overnight camps this summer.</p>
+      <p>Registration is currently OPEN for all our summer camps. Note: the Ontario Government has not yet indicated what guidelines, if any, will be in place for overnight camps for the summer of 2022. We will continue to follow all COVID-19 guidelines put in place for overnight camps. Be assured that ALL registrations are fully refundable in the off chance that overnight camps will not be able to run this summer.</p>
 
-      <p>We have added a new option to all of our kids camps as well as Family Camp. Due to the popularity of our Day Camps last summer we are delighted to offer those as an option for all of our kids camps (Family Camp, Jr. Kids, Kids I & II and Sports). You can register for these or any of our camps by clicking on the buttons below..
+      <p>We continue to offer a Day Camp options for all our Kids Camps (Jr. Kids, Kids I & II, and Sports Camp). These Day Camps run 9AM-5PM Monday through Friday. Campers can be dropped off and picked up each day or lodging and meals are available for grown ups to stay with their campers in one of our accommodations for an additional fee and based on availability. For more information about our accommodations for Day Camps please contact the office at office@slwc.ca. You can register for these or any of our camps by clicking on the buttons below.
       </p>
 
       <p><strong>Wondering what to pack for camp?</strong> Check out our <a href="/packing">Camp Packing Lists</a> for Day Camps and Overnight Camps.</p>
