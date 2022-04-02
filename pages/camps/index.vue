@@ -17,7 +17,7 @@
 
       <p><strong>Wondering what to pack for camp?</strong> Check out our <a href="/packing">Camp Packing Lists</a> for Day Camps and Overnight Camps.</p>
 
-      <p><strong>Want to know about our camp fees, or need financial help?</strong> Check out our <a href="/camps/camp-fees">Camp Fees & Financial Help page</a> for information about fees & financial help. </p>
+      <p><strong>Want to know about our camp fees, or need financial help?</strong> Check out our <a href="/camps/fees">Camp Fees & Financial Help page</a> for information about fees & financial help. </p>
 
       <iframe class="airtable-embed" src="https://airtable.com/embed/shr2HJ3HUJx6PB35b?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="1210" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </v-container>
