@@ -9,7 +9,7 @@
           <p>Our facility is very suited for personal and group retreats and gatherings. Churches, youth groups, leadership teams, families and other groups are welcome to rent the facility based on availability.</p>
           <h2 id="accomodations">Accomodations</h2>
           <v-container>
-            <p>SLWC is still finalizing plans for the 2021 Camping Season. With all of the uncertainty around COVID-19, vaccines, and government direction we are still not sure what camps and services we will be able to offer this year.</p>
+            <p>SLWC is still finalizing plans for the 2022 Camping Season.</p>
 
             <p>Please stay tuned for more information coming soon on the <a href="/camps">camps page</a> with details as we find out more.</p>
             <iframe class="airtable-embed" src="https://airtable.com/embed/shrtq3SZyPOkXER68?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="1010" style="background: transparent; border: 1px solid #ccc;"></iframe>
