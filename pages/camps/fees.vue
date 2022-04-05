@@ -13,7 +13,7 @@
 
           <p>For 2022, we are anticipating the cost to us for a week-long camp to be not less than $900.  For that reason, fees for 2022 were raised so that they would be between $550 and $600 per camper.</p>
 
-          <p>For some folks, these discounted fees may still not be adequate enough to help them send their child, youth or teen to camp.  For those folks, know that we have the ability to access funds that may help them.  If you would like to know more about such assistance, please contact the office at <a href="mailto:office@slwc.ca">office@slwc.ca</a>.</p>
+          <p>For some, these discounted fees may still not be adequate enough to help them send their child, youth or teen to camp.  For those folks, know that we have the ability to access funds that may help them.  If you would like to know more about such assistance, please contact the office at <a href="mailto:office@slwc.ca">office@slwc.ca</a>.</p>
         </v-flex>
       </v-layout>
     </v-container>
