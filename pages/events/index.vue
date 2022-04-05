@@ -10,7 +10,7 @@
     <v-container>
       <h1><span v-text="currentYear" /> Events</h1>
 
-      <p>Outside of our seasonal summer camps at SLWC we offer a few annual events as well (non camps). This includes our annual Family Day event in February and our Work Bees in Spring and Fall.  Check this page for all event information. It will be updated as we finalize information about our 2022 SLWC events. 
+      <p>Outside of our seasonal summer camps at SLWC we offer a few annual events as well (non camps). This includes our annual Family Day event in February and our Work Bees in Spring and Fall.  Check this page for all event information. It will be updated as we finalize information. 
 
 
 
