@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>COVID-19 Response : 2022</h1>
+      <h1>COVID-19 Response </h1>
     </v-container>
     <v-container>
       <v-layout row wrap>
