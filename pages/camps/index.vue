@@ -8,7 +8,7 @@
       ></v-carousel-item>
     </v-carousel>
     <v-container>
-      <h1><span v-text="currentYear" /> Camps</h1>
+      <h1><span v-text= /> Camps</h1>
 
       <p>Registration is currently OPEN for all our summer camps. </p>
 
