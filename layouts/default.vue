@@ -202,7 +202,6 @@
           { icon: 'book', title: 'Rentals', to: '/rentals' },
           { icon: 'attach_money', title: 'Give', to: '/giving' },
           { icon: 'attach_money', title: 'Payments', to: '/payments' },
-          { icon: 'warning', title: 'Covid Response', to: '/covid' },
         ]
       }
     }
