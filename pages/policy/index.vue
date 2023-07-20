@@ -109,7 +109,7 @@
 
           <br>
 
-          <p>The balance of the camp fee (less admin fee of $12.00) will be refunded IF:</p>
+          <p>The balance of the camp fee (less admin fee of $25.00) will be refunded IF:</p>
 
           <ul>
             <li>Family plans change and the camper can no longer attend. In this case written notification must be received according to the timeframe on the chart below.</li>
