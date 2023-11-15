@@ -1,7 +1,7 @@
 export const state = () => ({
   giving: [
     {
-      title: 'One Day Give 2023',
+      title: 'One Day Give',
       description: `ONE DAY GIVE is our chance to get behind the vision of SLWC. Which is to share the love of Jesus with as many as possible through camp ministry. So, we ask that you give generously. Every dollar helps because every camper matters. Everything we do because of the generosity shown during our ONE DAY GIVE helps us pursue our vision. So please give generously. Give so that “One Day” can be sooner than we thought.`,
       external_payment_url: 'https://slwc.campbraingiving.com'
     },
