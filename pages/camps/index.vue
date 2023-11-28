@@ -10,7 +10,7 @@
     <v-container>
       <h1><span v-text= Camps</h1>
 
-      <p><strong>Registration for our 2024 camps will open soon.<strong> </p>
+      <p><strong>Registration for our 2024 camps will open Dec 1 2023.<strong> </p>
 
       <p>We offer Day Camp options for all our Kids Camps (Jr. Kids, Kids I, II & III). These Day Camps run 9AM-5PM Monday through Friday. Campers can be dropped off and picked up each day or lodging and meals are available for grown ups to stay with their campers in one of our accommodations for an additional fee and based on availability. For more information about our accommodations for Day Camps please contact the office at office@slwc.ca. You can register for these or any of our camps by clicking on the buttons below.
       </p>
