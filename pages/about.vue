@@ -11,7 +11,7 @@
 
                     <h2>Who We Are and What We Believe</h2>
                     <p>
-                        Silver Lake Wesleyan Camp is a Christian Camp near Perth Ontario (about an hour southwest
+                        Silver Lake Wesleyan Camp is a Christian Camp near Perth, Ontario (about an hour southwest
                         of Ottawa) that is owned by the Central Canada District of the Wesleyan Church of Canada. You
                         will find more about what we believe and how we aspire to live, by reading about us at:
                         <a href="https://www.wesleyan.org/about/our-beliefs"
