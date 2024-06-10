@@ -95,7 +95,7 @@
                         </li>
                         <br />
                         <li>
-                            <strong>Health and Safety Regime</strong> -- As a camp that welcomes 1000’s of people of all
+                            <strong>Health and Safety</strong> -- As a camp that welcomes 1000’s of people of all
                             ages to our site each year, including many children, SLWC ensures that their stay
                             here will be safe. Provincial authorities provide guidance for the many areas of “Camping”
                             where the safeguarding of people’s well-being is important. Areas covered by these
