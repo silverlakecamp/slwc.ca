@@ -23,13 +23,13 @@
                     <p>
                         We run camps and retreats, and host many other groups who do the same. We help
                         people of all ages grow spiritually in a fun-filled and safe place of retreat, adventure, learning
-                        and challenge.  As a Christian Camp,everythings we do is rooted in our Biblical convictions about our relationship to God and with one another. Our love
+                        and challenge.  As a Christian Camp everything we do is rooted in our Biblical convictions about our relationship to God and with one another. Our love
                         for God and his son Jesus, motivates us to "Share the Love of Jesus with as many as possible".
                     </p>
 
                     <h2>Our Story</h2>
                     <p>
-                        The Silver Lake Wesleyan Camp (SLWC) was purchased in 1957. Our founders had a
+                        The Silver Lake Wesleyan Camp (SLWC) property was purchased in 1957. Our founders had a
                         dream of creating a place where people could come away from their daily routines to be
                         introduced to the “Good News” and or grow and mature in their walk with the Lord. Several families
                         led the charge to purchase the 55 acres for the formation of SLWC.
@@ -41,7 +41,7 @@
                         early years.
                     </p>
                     <p>
-                        While the efforts of those early years had significant impact on the many lives of many people who
+                        While the efforts of those early years had significant impact on many lives of many people who
                         attended the camp, numerical decline and aging infrastructure set in after that period of initial
                         excitement and growth.
                     </p>
@@ -70,7 +70,7 @@
 
                     <h2>Respecting Earthly Authorities</h2>
                     <p>
-                        SLWC is committed to dignity and intrinsic value of people complies with Canadian standards of safety
+                        SLWC is committed to the dignity and intrinsic value of people and complies with Canadian standards of safety
                         for people of all ages.
                     </p>
                         SLWC appreciates the protections the Canadian Constitution affords religious organisations to practise and live out their beliefs.
@@ -88,7 +88,7 @@
                         <br />
                         <li>
                             <strong>Employment Standards</strong> -- SLWC employs over 50 people throughout the
-                            year. SLWC complies with federal and provincal employment requirements. These include the following topics
+                            year. SLWC complies with federal and provincial employment requirements. These include the following topics
                             (not an exhaustive list); vacation leave, hours of work including specific guidelines for employment at Camps,
                             minimum wage, severance pay and termination requirements, public holidays and maternity and
                             parental leave.
@@ -117,8 +117,8 @@
                             <p>
                                 <strong>Drinking Water and Septic Systems</strong> -- SLWC operates what is
                                 considered a small drinking water facility. The camp follows 22 established protocols to ensure
-                                the safe drinking water. Water is treated, tested, and measured. Water usage is recorded.
-                                Watse water is measured according to government standards and an annual report of waste water
+                                the safety of drinking water. Water is treated, tested, and measured. Water usage is recorded.
+                                Waste water is measured according to government standards and an annual report of waste water
                                 usage is filed.
                             </p>
                             <p>
@@ -130,8 +130,8 @@
                             <p>
                                 <strong>Food Services and Hospitality</strong> -- Serving upwards of 30,000
                                 meals each year, SLWC ensures that at all times when food is served, a staff member
-                                that holds the appropriate food handlers certificate present. SLWC accommodates
-                                many specific foods requests, such as dairy and or gluton free. Menus ensure that
+                                that holds the appropriate food handlers certificate is present. SLWC accommodates
+                                many specific foods requests, such as dairy and or gluten free. Menus ensure that
                                 campers are served “healthy’ foods during their time with us.
                             </p>
                             <p>
@@ -143,8 +143,8 @@
                             <p>
                                 <strong>Building Codes </strong> -- The camp has 23 buildings that help us serve the
                                 1000’s of people that visit us each year. New buildings are constructed to code. For
-                                some of our buildings the requirements are more stringent. SLWC located adjacent to
-                                a lake, and the conservation authorities provide consultatioin in certain aspects of infrastructure development.
+                                some of our buildings the requirements are more stringent. SLWC is located adjacent to
+                                a lake, and the conservation authorities provide consultation in certain aspects of infrastructure development.
                                 Existing buildings are maintained to ensure guests are safe.
                             </p>
                         </li>
@@ -167,7 +167,7 @@
                                 and launch institutions of Higher education.
                             </p>
                             <p>
-                                SLWC practices an egalitarian approach towards women and men in leadershp.
+                                SLWC practices an egalitarian approach towards women and men in leadership.
                                 
                             </p>
                         </li>
