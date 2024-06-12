@@ -41,7 +41,7 @@
                         early years.
                     </p>
                     <p>
-                        While the efforts of those early years had significant impact on many lives of many people who
+                        While the efforts of those early years had significant impact on lives of many people who
                         attended the camp, numerical decline and aging infrastructure set in after that period of initial
                         excitement and growth.
                     </p>
