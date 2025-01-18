@@ -60,8 +60,8 @@
       </video>
     </v-responsive>
     <v-container fluid pa-0 mb-10>
-      <v-layout :column="$vuetify.breakpoint.smAndDown" :row="$vuetify.breakpoint.mdAndUp" wrap>
-        <v-flex lg4>
+      <v-layout row wrap>
+        <v-flex xs12 lg4>
           <nuxt-link to="/camps">
             <v-card class="image-overlay" flat tile hover raised>
               <h2 class="image-overlay-text">
@@ -71,9 +71,9 @@
             </v-card>
           </nuxt-link>
         </v-flex>
-        <v-flex lg8>
-          <v-layout :column="$vuetify.breakpoint.smAndDown" :row="$vuetify.breakpoint.mdAndUp" wrap>
-            <v-flex d-flex>
+        <v-flex xs12 lg8>
+          <v-layout row wrap>
+            <v-flex xs12 md6>
               <nuxt-link to="/events">
                 <v-card class="image-overlay" flat tile hover raised>
                   <h2 class="image-overlay-text">
@@ -83,7 +83,7 @@
                 </v-card>
               </nuxt-link>
             </v-flex>
-            <v-flex d-flex>
+            <v-flex xs12 md6>
               <nuxt-link to="/giving">
                 <v-card class="image-overlay" flat tile hover raised>
                   <h2 class="image-overlay-text">
@@ -94,8 +94,8 @@
               </nuxt-link>
             </v-flex>
           </v-layout>
-          <v-layout :column="$vuetify.breakpoint.smAndDown" :row="$vuetify.breakpoint.mdAndUp" wrap>
-            <v-flex d-flex>
+          <v-layout row wrap>
+            <v-flex xs12>
               <nuxt-link to="/rentals">
                 <v-card class="image-overlay" flat tile hover raised>
                   <h2 class="image-overlay-text">
