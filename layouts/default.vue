@@ -169,6 +169,7 @@ export default {
             items: [
                 { icon: "help", title: "About SLWC", to: "/about" },
                 { icon: "beach_access", title: "Camps", to: "/camps" },
+                { icon: "school", title: "LIT Program", to: "/lit" },
                 { icon: "event", title: "Events", to: "/events" },
                 { icon: "book", title: "Rentals", to: "/rentals" },
                 { icon: "attach_money", title: "Give", to: "/giving" },
