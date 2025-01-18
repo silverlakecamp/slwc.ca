@@ -134,7 +134,7 @@
   }
 
   .mobile-map {
-    display: block;
+    display: block !important;
     margin: 2rem -24px -2rem -24px;
     position: relative;
     width: calc(100% + 48px);
@@ -244,7 +244,7 @@
                             <a href="https://www.vimeo.com/silverlake">Vimeo</a>
                         </div>
                     </v-flex>
-                    <v-flex xs12 md8 lg9 class="d-none d-md-block">
+                    <v-flex xs12 md8 lg9 class="hidden-sm-and-down">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11317.272312879688!2d-76.5932308!3d44.8354553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x224570bad32dad0c!2sSilver+Lake+Wesleyan+Camp!5e0!3m2!1sen!2sca!4v1473269309127"
                             loading="lazy"
@@ -253,7 +253,7 @@
                     </v-flex>
                 </v-layout>
             </v-container>
-            <div class="mobile-map d-md-none">
+            <div class="mobile-map hidden-md-and-up">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11317.272312879688!2d-76.5932308!3d44.8354553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x224570bad32dad0c!2sSilver+Lake+Wesleyan+Camp!5e0!3m2!1sen!2sca!4v1473269309127"
                     loading="lazy"
