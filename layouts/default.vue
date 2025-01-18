@@ -25,6 +25,16 @@
 
 .text-logo {
   max-width: 140px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;
+}
+
+#back-to-homepage {
+  text-decoration: none;
+  font-size: 0;
+  display: flex;
+  align-items: center;
 }
 
 .white-loon {
