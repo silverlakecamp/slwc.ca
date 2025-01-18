@@ -1,44 +1,54 @@
-<style lang="stylus">
-  .mb-10
-    margin-bottom 10px
+<style>
+  .mb-10 {
+    margin-bottom: 10px;
+  }
 
-  .bg-video
-    video
-      object-fit cover
-      width 100%
-    .overlay
-      position absolute
-      right 0
-      left 0
-      margin auto
-      top 25px
+  .bg-video video {
+    object-fit: cover;
+    width: 100%;
+  }
 
-  .image-overlay
-    position relative
-    &:hover
-      .image-overlay-text
-        background rgb(0,0,0)
-        background rgba(0,0,0,0.7)
-        transition: 1s ease-out
-      .v-image__image
-        filter grayscale(100%)
-        transition: 1s ease-out
-    .image-overlay-text
-      position absolute
-      width 100%
-      bottom 10px
-      text-align right
-      font-size 3rem
-      font-weight bolder
-      text-transform uppercase
-      z-index 1
-      background-color transparent
-      span
-        text-shadow 2px 4px 3px rgba(0,0,0,0.3)
-        padding 10px
-        padding-right 20px
-        color white
+  .bg-video .overlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 25px;
+  }
 
+  .image-overlay {
+    position: relative;
+  }
+
+  .image-overlay:hover .image-overlay-text {
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.7);
+    transition: 1s ease-out;
+  }
+
+  .image-overlay:hover .v-image__image {
+    filter: grayscale(100%);
+    transition: 1s ease-out;
+  }
+
+  .image-overlay .image-overlay-text {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    z-index: 1;
+    background-color: transparent;
+  }
+
+  .image-overlay .image-overlay-text span {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    padding: 10px;
+    padding-right: 20px;
+    color: white;
+  }
 </style>
 
 <template>

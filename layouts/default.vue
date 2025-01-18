@@ -1,45 +1,63 @@
-<style lang="stylus">
-.application
-  font-family 'Raleway', sans-serif
-  h1
-    font-family 'Arvo', sans-serif
-    font-weight bold
-  h2, h3, h4, h5, h6
-    font-family 'Montserrat', sans-serif
-    font-weight bold
+<style>
+.application {
+  font-family: 'Raleway', sans-serif;
+}
 
-.loon
-  vertical-align bottom
-  max-width 40px
-  margin-right 10px
+.application h1 {
+  font-family: 'Arvo', sans-serif;
+  font-weight: bold;
+}
 
-.text-logo
-  max-width 140px
+.application h2,
+.application h3,
+.application h4,
+.application h5,
+.application h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 
-.white-loon
-  max-width 100%
-  max-height 80px
+.loon {
+  vertical-align: bottom;
+  max-width: 40px;
+  margin-right: 10px;
+}
 
-#app-header
-  a
-    color darken(#B0C954, 60%)
+.text-logo {
+  max-width: 140px;
+}
 
-#app-header, #app-footer
-  a
-    text-decoration none
-    .meta
-      color darken(#777776, 60%)
-      &:before
-        content: " | "
+.white-loon {
+  max-width: 100%;
+  max-height: 80px;
+}
 
-#app-footer
-  a
-    color #F1F2F2
-  background-color #777776
-  color white
+#app-header a {
+  color: #4c5821;
+}
 
-.theme--light.v-toolbar
-  background-color #b0c954
+#app-header a .meta,
+#app-footer a .meta {
+  color: #1a1a1a;
+}
+
+#app-header a .meta:before,
+#app-footer a .meta:before {
+  content: " | ";
+}
+
+#app-footer {
+  background-color: #777776;
+  color: white;
+}
+
+#app-footer a {
+  color: #F1F2F2;
+}
+
+.theme--light.v-toolbar {
+  background-color: #b0c954;
+}
 </style>
 
 <template>

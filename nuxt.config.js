@@ -22,7 +22,10 @@ module.exports = {
     ],
   },
   plugins: ["~/plugins/vuetify.js"],
-  css: ["~/assets/style/app.styl"],
+  css: [
+    'vuetify/dist/vuetify.min.css',
+    '~/assets/style/app.css'
+  ],
   /*
    ** Customize the progress bar color
    */
