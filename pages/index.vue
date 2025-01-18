@@ -56,7 +56,7 @@
         height="85%"
         :src="require('@/assets/img/slwc_alt_logo_white.png')" alt="Silver Lake Wesleyan Camp Logo" />
       <video loop autoplay muted>
-        <source :src="require('@/assets/video/index-bg.mp4')" />
+        <source src="/video/index-bg.mp4" type="video/mp4" />
       </video>
     </v-responsive>
     <v-container fluid pa-0 mb-10>
