@@ -17,7 +17,7 @@
           <br>
           <h2 id="rates">Meals & Lodging Rates</h2>
           <br>
-          <p>If you are not part of an organized camp or event, and simply want to come to spend a night at the camp or enjoy a meal in the dining hall, the following rates apply.</p>
+          <p>If you are not part of an organized camp or event, you are welcome to come to spend a night at the camp or enjoy a meal in the dininghall.</p>
           <v-alert
             :value="true"
             color="info"
