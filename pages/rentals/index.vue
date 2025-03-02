@@ -15,7 +15,7 @@
             <iframe class="airtable-embed" src="https://airtable.com/embed/shrtq3SZyPOkXER68?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="1010" style="background: transparent; border: 1px solid #ccc;"></iframe>
           </v-container>
           <br>
-          <h2 id="rates">Meals & Lodging Rates</h2>
+          <h2 id="rates">Meals & Lodging</h2>
           <br>
           <p>If you are not part of an organized camp or event, you are welcome to come to spend a night at the camp or enjoy a meal in the dininghall.</p>
           <v-alert
