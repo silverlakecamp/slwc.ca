@@ -11,7 +11,6 @@
           <v-container>
       
 
-            <p>Please stay tuned for more information coming soon on the <a href="/camps">camps page</a> with details as we find out more.</p>
             <iframe class="airtable-embed" src="https://airtable.com/embed/shrtq3SZyPOkXER68?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="1010" style="background: transparent; border: 1px solid #ccc;"></iframe>
           </v-container>
           <br>
