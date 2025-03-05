@@ -47,7 +47,10 @@
             outline
             class="black--text"
           >
-            <b>Gluten/Dairy Free</b> preference meals are available upon request for an additional cost. Advanced notice is required, contact the office for more details. We are very cautious, and will consider each request, but for the safety of all involved we may have to decline a certain food request when we are not 100% certain we can accommodate (for example, Celiac disease).
+            <b>Specialty meals are available on request at $3.00 per meal which will be charged over and above our regular meal prices.  We can accommodate Gluten/Dairy free requests, as well as requests related to allergies for fish and nuts. 
+            We will consider other requests, but for the safety of all involved we may have to decline a certain food request when we are not 100% certain we can guarantee safety (for example, Celiac disease). 
+            In all cases, advance notice is required.  For any questions on this subject, please contact our Guests Services Director at guestservices@slwc.ca
+
           </v-alert>
         </v-flex>
         <v-flex md3 offset-lg1 order-xs1>
