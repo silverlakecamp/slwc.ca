@@ -6,7 +6,7 @@
         <v-container>
             <v-layout row wrap>
                 <v-flex md12>
-                    <p>Leaders in Training (LIT) is an 18 day program that is focused on preparing students to be leaders at camp, at their church, in their schools, and in the community. The program is for students 14 years old and up (turning 14 in the calendar year of the program).</p>
+                    <p>Leaders in Training (LIT) is an 11 day program that is focused on preparing students to be leaders at camp, at their church, in their schools, and in the community. The program is for students 14 years old and up (turning 14 in the calendar year of the program).</p>
 
                     <h2>About the Program</h2>
                     <p>The LITs will have the opportunity to experience all aspects of camp, from the different jobs needed to run Silver Lake Wesleyan Camp, to being able to explore what it means to participate in Christian leadership and how we can truly bring about positive change.</p>
