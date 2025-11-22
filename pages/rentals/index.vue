@@ -28,8 +28,8 @@
           </v-alert>
           <br>
           <h2 id="group-rates">Group Rates</h2>
-          <v-btn flat large color="green" href="mailto:office@slwc.ca?subject=Group%20Rate%20Inquiry">
-            Contact the camp office for any group rate inquiries.
+          <v-btn flat large color="green" href="mailto:events@slwc.ca?subject=Group%20Rate%20Inquiry">
+            For information about group rentals, please contact our events coordinator, Stephanie Wesson at events@slwc.ca
           </v-btn>
           <v-alert
             :value="true"
