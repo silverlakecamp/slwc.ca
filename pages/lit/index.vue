@@ -23,7 +23,7 @@
                         <li>Much More!</li>
                     </ul>
                     <br />
-                    <p>The LITs will also receive their CPA Level-C through our program. While there are so many learning opportunities, we also have lots of fun through our off camp activity days, sharing in delicious meals together, swimming/boating, and enjoying games as a team.</p>
+                    <p>The LITs will also receive their CPR Level-C through our program. While there are so many learning opportunities, we also have lots of fun through our off camp activity days, sharing in delicious meals together, swimming/boating, and enjoying games as a team.</p>
 
                     <p>Our goal is to provide students with leadership skills while also fostering their relationship with Christ. Through this, they will participate in daily morning devotions, learning how to write their testimony and compose their own devotional lesson, and be a part of staff worship nights. We are so excited for LIT and to see what God has in store for our program!</p>
 
