@@ -25,7 +25,7 @@
                     <br />
                     <p>The LITs will also receive their First Aid Certification through our program. While there are so many learning opportunities, we also have lots of fun through our off camp activity days, sharing in delicious meals together, swimming/boating, and enjoying games as a team.</p>
 
-                    <p>Our goal is to provide students with leadership skills while also fostering their relationship with Christ. Through this, they will participate in daily morning devotions, learning how to write their testimony and compose their own devotional lesson, and be a part of staff worship nights. We are so excited for LIT 2025 and to see what God has in store for our program!</p>
+                    <p>Our goal is to provide students with leadership skills while also fostering their relationship with Christ. Through this, they will participate in daily morning devotions, learning how to write their testimony and compose their own devotional lesson, and be a part of staff worship nights. We are so excited for LIT and to see what God has in store for our program!</p>
 
                     <h2>Interested in Applying?</h2>
                     <p>Please submit your resume and cover letter to <a href="mailto:lit@slwc.ca">lit@slwc.ca</a>.</p>
@@ -67,7 +67,7 @@
                                     <div>How much does it cost?</div>
                                 </template>
                                 <v-card>
-                                    <v-card-text>The 2025 LIT at SLWC Program costs $859 (plus tax) per participant. This price includes room and board, first aid training, a welcome package, "fun days" (off campus activities), etc.</v-card-text>
+                                    <v-card-text>The 2026 LIT at SLWC Program costs $885 (plus tax) per participant. This price includes room and board, first aid training, a welcome package, "fun days" (off campus activities), etc.</v-card-text>
                                 </v-card>
                             </v-expansion-panel-content>
 
@@ -83,7 +83,7 @@
                     </div>
 
                     <h2>Still Have Questions?</h2>
-                    <p>Ask us at <a href="mailto:lit@slwc.ca">lit@slwc.ca</a> and we'll do our best to answer.</p>
+                    <p>Ask us at <a href="mailto:lit@slwc.ca">lit@slwc.ca</a> and we'll do our best to answer your questions.</p>
                 </v-flex>
             </v-layout>
         </v-container>
