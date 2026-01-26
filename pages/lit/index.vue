@@ -6,7 +6,7 @@
         <v-container>
             <v-layout row wrap>
                 <v-flex md12>
-                    <p>Leaders in Training (LIT) is an 11 day program that is focused on preparing students to be leaders at camp, at their church, in their schools, and in the community. The program is for students 14 years old and up (turning 14 in the calendar year of the program).</p>
+                    <p>Leaders in Training (LIT) is an 18 day program that is focused on preparing students to be leaders at camp, at their church, in their schools, and in the community. The program is for students 14 years old and up (turning 14 in the calendar year of the program).</p>
 
                     <h2>About the Program</h2>
                     <p>The LITs will have the opportunity to experience all aspects of camp, from the different jobs needed to run Silver Lake Wesleyan Camp, to being able to explore what it means to participate in Christian leadership and how we can truly bring about positive change.</p>
@@ -23,7 +23,7 @@
                         <li>Much More!</li>
                     </ul>
                     <br />
-                    <p>The LITs will also receive their First Aid Certification through our program. While there are so many learning opportunities, we also have lots of fun through our off camp activity days, sharing in delicious meals together, swimming/boating, and enjoying games as a team.</p>
+                    <p>The LITs will also receive their CPA Level-C through our program. While there are so many learning opportunities, we also have lots of fun through our off camp activity days, sharing in delicious meals together, swimming/boating, and enjoying games as a team.</p>
 
                     <p>Our goal is to provide students with leadership skills while also fostering their relationship with Christ. Through this, they will participate in daily morning devotions, learning how to write their testimony and compose their own devotional lesson, and be a part of staff worship nights. We are so excited for LIT and to see what God has in store for our program!</p>
 
